@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+import site from '../data/site.json';
+
+const { title = site.labName, description = site.tagline } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const pathname = Astro.url.pathname.replace(base, '/');
+const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title === site.labName ? title : `${title} | ${site.shortName}`}</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="nav" aria-label="Main navigation">
+          <a class="brand" href={withBase('/')}>
+            <strong>{site.labName}</strong>
+            <span>{site.institution}</span>
+          </a>
+          <div class="nav-links">
+            {site.nav.map((item) => (
+              <a href={withBase(item.href)} aria-current={pathname === item.href ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="footer">
+        <div class="footer-inner">
+          <div>
+            <strong>{site.labName}</strong>
+            <div>{site.institution}</div>
+          </div>
+          <div>
+            {site.contact.address}<br />
+            {site.contact.email}
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+---
+import publications from '../data/publications.json';
+
+const { featuredOnly = false } = Astro.props;
+const items = featuredOnly ? publications.filter((pub) => pub.featured) : publications;
+---
+
+<div class="pub-list">
+  {items.map((pub) => (
+    <article class="pub-item">
+      <div class="year">{pub.year}</div>
+      <div>
+        <h3><a href={pub.url}>{pub.title}</a></h3>
+        <p>{pub.authors}</p>
+        <p>{pub.venue}</p>
+      </div>
+    </article>
+  ))}
+</div>

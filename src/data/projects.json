@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Lab-on-a-Chip and Biomedical Microsystems",
+    "summary": "Microfluidic platforms for cell handling, cell mechanics, droplet generation, and biomedical measurement.",
+    "tags": [
+      "Microfluidics",
+      "Biomedical devices",
+      "Cell mechanics"
+    ]
+  },
+  {
+    "title": "Plasma-Enabled Microfluidic Fabrication",
+    "summary": "Atmospheric-pressure plasma processes for fast, patternable surface treatment and bonding of microfluidic chips.",
+    "tags": [
+      "Plasma",
+      "Surface treatment",
+      "Microfabrication"
+    ]
+  },
+  {
+    "title": "Micro/Nano Robotics and Manipulation",
+    "summary": "Robotic systems for high-speed manipulation, grasping, contact modeling, and micro-scale interaction.",
+    "tags": [
+      "Robotics",
+      "Manipulation",
+      "High-speed vision"
+    ]
+  },
+  {
+    "title": "Viscoelastic Contact Interfaces",
+    "summary": "Modeling and sensing of deformable contact interfaces for robotic manipulation and microsystem interaction.",
+    "tags": [
+      "Contact modeling",
+      "Viscoelasticity",
+      "Sensing"
+    ]
+  }
+]

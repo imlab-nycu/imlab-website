@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import site from '../data/site.json';
+---
+
+<BaseLayout title="Contact">
+  <header class="page-title">
+    <p class="section-kicker">Contact</p>
+    <h1>Visit or contact the Intelligent Microsystem Lab.</h1>
+    <p>{site.institution}</p>
+  </header>
+  <section class="section">
+    <div class="grid two">
+      <article class="card">
+        <h3>Lab Contact</h3>
+        <p><strong>Email:</strong> {site.contact.email}</p>
+        <p><strong>Office:</strong> {site.contact.office}</p>
+        <p><strong>Lab:</strong> {site.contact.lab}</p>
+        <p><strong>Address:</strong> {site.contact.address}</p>
+      </article>
+      <article class="card">
+        <h3>Public Profiles</h3>
+        <p>Source links used for this initial draft.</p>
+        <div class="link-list">
+          {site.links.map((link) => <a href={link.url}>{link.label}</a>)}
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

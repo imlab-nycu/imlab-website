@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Chia-Hung Dylan Tsai",
+    "role": "Principal Investigator",
+    "group": "Faculty",
+    "image": "/images/dylan-tsai.jpg",
+    "bio": "Associate Professor in the Department of Mechanical Engineering at National Yang Ming Chiao Tung University and director of the Intelligent Microsystem Lab.",
+    "interests": [
+      "Lab-on-a-chip systems",
+      "Biomedical applications",
+      "Micro/nano robotics",
+      "Robotic grasping and manipulation",
+      "Viscoelasticity"
+    ],
+    "links": [
+      {
+        "label": "Profile",
+        "url": "https://dylantsai.web.nycu.edu.tw/"
+      }
+    ]
+  },
+  {
+    "name": "Graduate researcher",
+    "role": "PhD / MS Student",
+    "group": "Students",
+    "image": "",
+    "bio": "Add current lab member biography, research topic, and contact details here.",
+    "interests": [
+      "Microfluidics",
+      "Robotics"
+    ],
+    "links": []
+  }
+]

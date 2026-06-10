@@ -1,0 +1,59 @@
+{
+  "labName": "Intelligent Microsystem Lab",
+  "shortName": "IMLAB",
+  "tagline": "Microsystems for lab-on-a-chip science, plasma-enabled fabrication, robotics, and biomedical devices.",
+  "institution": "Department of Mechanical Engineering, National Yang Ming Chiao Tung University",
+  "pi": "Chia-Hung Dylan Tsai",
+  "contact": {
+    "email": "dylantsai@nycu.edu.tw",
+    "office": "Room 423, Engineering Building 5",
+    "lab": "Room 407, Engineering Building 5",
+    "address": "1001 University Road, Hsinchu 30010, Taiwan"
+  },
+  "links": [
+    {
+      "label": "NYCU Profile",
+      "url": "https://me.nycu.edu.tw/en/people/teacher/Chia-Hung-Dylan-Tsai-41695593"
+    },
+    {
+      "label": "Research Profile",
+      "url": "https://dylantsai.web.nycu.edu.tw/"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-8840-3984"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=gZ44feUAAAAJ"
+    }
+  ],
+  "nav": [
+    {
+      "label": "Research",
+      "href": "/research/"
+    },
+    {
+      "label": "People",
+      "href": "/people/"
+    },
+    {
+      "label": "Publications",
+      "href": "/publications/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dylan Tsai research profile",
+      "url": "https://dylantsai.web.nycu.edu.tw/"
+    },
+    {
+      "label": "NYCU Mechanical Engineering profile",
+      "url": "https://me.nycu.edu.tw/en/people/teacher/Chia-Hung-Dylan-Tsai-41695593"
+    }
+  ]
+}

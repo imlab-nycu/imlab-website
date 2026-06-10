@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectGrid from '../components/ProjectGrid.astro';
+import PublicationList from '../components/PublicationList.astro';
+import NewsList from '../components/NewsList.astro';
+import site from '../data/site.json';
+
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+---
+
+<BaseLayout title={site.labName}>
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="hero-kicker">{site.shortName} at NYCU Mechanical Engineering</p>
+        <h1>{site.labName}</h1>
+        <p>{site.tagline}</p>
+        <div class="hero-actions">
+          <a class="button primary" href={withBase('/research/')}>Explore Research</a>
+          <a class="button secondary" href={withBase('/contact/')}>Contact the Lab</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src={withBase('/images/dylan-tsai.jpg')} alt="Chia-Hung Dylan Tsai" />
+        <figcaption>{site.pi}, Principal Investigator</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <p class="section-kicker">Research Themes</p>
+        <h2>Microscale systems for real-world measurement and manipulation.</h2>
+      </div>
+      <p>
+        IMLAB connects microfluidics, plasma processing, robotic manipulation, and
+        biomedical engineering through experimental platforms that can be updated as
+        the lab portfolio grows.
+      </p>
+    </div>
+    <ProjectGrid />
+  </section>
+
+  <section class="band">
+    <div class="section">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Selected Work</p>
+          <h2>Publications</h2>
+        </div>
+        <a class="button primary" href={withBase('/publications/')}>All Publications</a>
+      </div>
+      <PublicationList featuredOnly={true} />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <p class="section-kicker">Lab Updates</p>
+        <h2>News</h2>
+      </div>
+    </div>
+    <NewsList />
+  </section>
+</BaseLayout>

@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProjectGrid from '../components/ProjectGrid.astro';
+import site from '../data/site.json';
+---
+
+<BaseLayout title="Research">
+  <header class="page-title">
+    <p class="section-kicker">Research</p>
+    <h1>Integrated microsystems, from fabrication to sensing and manipulation.</h1>
+    <p>
+      These sections are driven by <code>src/data/projects.json</code>, so research
+      themes can be revised without changing the page template.
+    </p>
+  </header>
+  <section class="section">
+    <ProjectGrid />
+  </section>
+  <section class="band">
+    <div class="section">
+      <div class="grid two">
+        <article class="card">
+          <h3>Facilities</h3>
+          <p>
+            Add microfabrication, plasma treatment, microscopy, high-speed imaging,
+            and robotic testbed facilities here after approval.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Collaboration</h3>
+          <p>
+            {site.labName} welcomes collaborations across microfluidics, biomedical
+            devices, robotics, and plasma-enabled manufacturing.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

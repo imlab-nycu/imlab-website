@@ -1,0 +1,15 @@
+---
+import projects from '../data/projects.json';
+---
+
+<div class="grid">
+  {projects.map((project) => (
+    <article class="card">
+      <h3>{project.title}</h3>
+      <p>{project.summary}</p>
+      <div class="tags">
+        {project.tags.map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+    </article>
+  ))}
+</div>

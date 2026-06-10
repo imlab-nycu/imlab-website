@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import people from '../data/people.json';
+
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+---
+
+<BaseLayout title="People">
+  <header class="page-title">
+    <p class="section-kicker">People</p>
+    <h1>Researchers building intelligent microsystem platforms.</h1>
+    <p>
+      Current lab member entries are placeholders except for public PI information.
+      Replace them in <code>src/data/people.json</code> when names and photos are approved.
+    </p>
+  </header>
+  <section class="section">
+    <div class="grid two">
+      {people.map((person) => (
+        <article class="card person">
+          {person.image ? (
+            <img class="avatar" src={withBase(person.image)} alt={person.name} />
+          ) : (
+            <div class="avatar placeholder" aria-hidden="true">
+              {person.name.slice(0, 2).toUpperCase()}
+            </div>
+          )}
+          <div>
+            <h3>{person.name}</h3>
+            <p><strong>{person.role}</strong> · {person.group}</p>
+            <p>{person.bio}</p>
+            <div class="tags">
+              {person.interests.map((interest) => <span class="tag">{interest}</span>)}
+            </div>
+            {person.links.length > 0 && (
+              <div class="link-list">
+                {person.links.map((link) => <a href={link.url}>{link.label}</a>)}
+              </div>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
