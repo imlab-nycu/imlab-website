@@ -21,10 +21,23 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
           <a class="button secondary" href={withBase('/contact/')}>Contact the Lab</a>
         </div>
       </div>
-      <figure class="portrait">
-        <img src={withBase('/images/dylan-tsai.jpg')} alt="Chia-Hung Dylan Tsai" />
-        <figcaption>{site.pi}, Principal Investigator</figcaption>
-      </figure>
+      <aside class="hero-panel" aria-label="Lab snapshot">
+        <div>
+          <span>Research Output</span>
+          <strong>132</strong>
+          <p>entries imported from the public publication profile</p>
+        </div>
+        <div>
+          <span>Core Areas</span>
+          <strong>4</strong>
+          <p>microfluidics, plasma, robotics, and biomedical devices</p>
+        </div>
+        <div>
+          <span>Home Base</span>
+          <strong>NYCU</strong>
+          <p>Mechanical Engineering, Hsinchu, Taiwan</p>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -47,8 +60,8 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
     <div class="section">
       <div class="section-header">
         <div>
-          <p class="section-kicker">Selected Work</p>
-          <h2>Publications</h2>
+          <p class="section-kicker">Recent Work</p>
+          <h2>Recent journal publications</h2>
         </div>
         <a class="button primary" href={withBase('/publications/')}>All Publications</a>
       </div>
