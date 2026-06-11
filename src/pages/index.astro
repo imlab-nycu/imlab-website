@@ -10,7 +10,7 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
 ---
 
 <BaseLayout title={site.labName}>
-  <section class="hero">
+  <section class="hero" style={`--hero-image: url('${withBase('/images/microsystem-hero.png')}')`}>
     <div class="hero-inner">
       <div>
         <p class="hero-kicker">{site.shortName} at NYCU Mechanical Engineering</p>
@@ -38,6 +38,26 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
           <p>Mechanical Engineering, Hsinchu, Taiwan</p>
         </div>
       </aside>
+    </div>
+  </section>
+
+  <section class="visual-strip" aria-label="Lab platform overview">
+    <div class="visual-strip-inner">
+      <article>
+        <span class="visual-icon channels" aria-hidden="true"></span>
+        <h2>Microfluidic Chips</h2>
+        <p>Droplets, cells, channels, and on-chip measurement.</p>
+      </article>
+      <article>
+        <span class="visual-icon plasma" aria-hidden="true"></span>
+        <h2>Plasma Processing</h2>
+        <p>Surface activation, bonding, and programmable treatment paths.</p>
+      </article>
+      <article>
+        <span class="visual-icon robotics" aria-hidden="true"></span>
+        <h2>Robotic Interaction</h2>
+        <p>Manipulation, sensing, and contact-rich microsystem control.</p>
+      </article>
     </div>
   </section>
 

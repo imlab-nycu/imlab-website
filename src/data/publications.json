@@ -8,6 +8,7 @@
         "authors": "洪藝凌、 蔡佳宏",
         "venue": "機械新刊 Insight Machinery Magazine, 53期, 文21-文27頁, 2021-04 (ISSN 2519-6081)",
         "url": "http://www.phdbooks.com.tw/cn/magazine/detail/1607",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -16,14 +17,16 @@
         "authors": "蔡佳宏",
         "venue": "熱流航太學門通訊月刊, 39期, 3-9頁, 2021-03",
         "url": "http://www.etop.org.tw/dsp/E73.php?c=dsp12220&p=5174",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
-        "year": "2021",
+        "year": "2020",
         "title": "Single Cell Manipulation Using Macro-scale Actuator",
         "authors": "C. D. Tsai",
-        "venue": "Springer, Singapore, Santra T.S., Tseng FG. (eds) Handbook of Single Cell Technologies, pp1-19, 2020-11 (ISBN 978-981-10-4857-9) link",
+        "venue": "Springer, Singapore, Santra T.S., Tseng FG. (eds) Handbook of Single Cell Technologies, pp1-19, 2020-11 (ISBN 978-981-10-4857-9)",
         "url": "http://doi.org/10.1007/978-981-10-4857-9_23-1",
+        "doi": "10.1007/978-981-10-4857-9_23-1",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -32,6 +35,7 @@
         "authors": "蔡佳宏",
         "venue": "科技部科學發展月刊, 566期, 59-67頁, 2020-02.",
         "url": "http://ejournal.stpi.narl.org.tw/sd/view?vlId=00bd3af39b4b4b098915aeeaacfafc0e",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -40,6 +44,7 @@
         "authors": "Makoto Kaneko and C. D. Tsai",
         "venue": "Asfour, T., Yoshida, E., Park, J., Christensen, H., Khatib, O. (eds) Robotics Research. ISRR 2019. Springer Proceedings in Advanced Robotics (SPAR) Book Series, vol 20. Springer, Cham.",
         "url": "http://doi.org/10.1007/978-3-030-95459-8_7",
+        "doi": "10.1007/978-3-030-95459-8_7",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -48,6 +53,7 @@
         "authors": "C. D. Tsai , M. Kaneko",
         "venue": "Corona Publishing Co., LTD, 細胞の特性計測・操作と応用 (Evaluation, Manipulation and Applications of Cells), Chap.1.2, pp16-30, 2016 (ISBN：978-4-339-07261-7) ( in Japanese, 日本語 )",
         "url": "http://www.coronasha.co.jp/np/isbn/9784339072617/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -56,6 +62,7 @@
         "authors": "C. D. Tsai , S. Sakuma, F. Arai and M. Kaneko",
         "venue": "Springer, Hyper Bio Assembler for 3D Cellular Systems, Chap.2, pp23-42, 2015 (ISBN 978-4-431-55297-0)",
         "url": "http://www.springer.com/gp/book/9784431552963",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       }
     ]
@@ -69,6 +76,7 @@
         "authors": "蔡佳宏 、黃聖文",
         "venue": "中華民國發明專利I833675. 公告日2024/06/21.",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -77,6 +85,7 @@
         "authors": "蔡佳宏 、鄒宥呈",
         "venue": "中華民國發明專利I773431. 公告日2022/08/01.",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       }
     ]
@@ -86,43 +95,53 @@
     "items": [
       {
         "year": "2026",
-        "title": "On-Chip Evaluation of Red Blood Cell Deformability through Transit Velocity Index in Hematological Diseases",
+        "title": "On-Chip Evaluation of Red Blood Cell Deformability Through Transit Velocity Index in Hematological Diseases",
         "authors": "Kenji Kajitani, Chia-Hung Dylan Tsai , Tomohito Ohtani*, Shigeo Wada, Ivan Cimrak, Misato Chimura, Tatsunori Taniguchi, Yasutaka Ueda, Jun-ichi Nishimura, Yasushi Sakata",
-        "venue": "small, 2026. (SCI, Rank: 35/160 = 21.9%, Nanoscience & Nanotechnology. IF: 12.1) Accepted",
+        "venue": "Small, 2026. DOI: 10.1002/smll.202514520",
         "url": "https://doi.org/10.1002/smll.202514520",
-        "source": "https://dylantsai.web.nycu.edu.tw/publications/"
+        "doi": "10.1002/smll.202514520",
+        "source": "https://dylantsai.web.nycu.edu.tw/publications/",
+        "crossChecked": true
       },
       {
         "year": "2026",
-        "title": "Voiceprint features and CNN for label-free identification of na-alginate microdroplet size and concentration during high-frequency generation",
+        "title": "Voiceprint features and CNN for label-free identification of Na-alginate microdroplet size and concentration during high-frequency generation",
         "authors": "Peng-Nian Chen and C. D. Tsai*",
-        "venue": "Sensors and Actuators A: Physical, 117467, 2026-01. (SCI, Rank: 14/76=18.42%, Instruments & Instrumentation IF: 4.1)",
+        "venue": "Sensors and Actuators A: Physical, 400, 117467, 2026-04. DOI: 10.1016/j.sna.2026.117467",
         "url": "https://doi.org/10.1016/j.sna.2026.117467",
-        "source": "https://dylantsai.web.nycu.edu.tw/publications/"
+        "doi": "10.1016/j.sna.2026.117467",
+        "source": "https://dylantsai.web.nycu.edu.tw/publications/",
+        "crossChecked": true
       },
       {
-        "year": "2025",
+        "year": "2026",
         "title": "Effects of Short- and Long-Lived ROS Generated by a Cold Atmospheric Plasma Jet on Human Xenograft A2058 Melanoma and Associated Side Effects in a Nude Mouse Model",
         "authors": "Tung Ku, Chia-Hung Dylan Tsai , Chao-Yu Chen, Ivan Gomez Ho, Chih-Tung Liu, Ru-Tsun Mai* and Yun-Chien Cheng*",
-        "venue": "IEEE Transactions on Radiation and Plasma Medical Sciences, 1-1, 2025. (SCI, Rank: -/-=-%, IF: 3.5)",
+        "venue": "IEEE Transactions on Radiation and Plasma Medical Sciences, 10, 629-639, 2026-04. DOI: 10.1109/TRPMS.2025.3597795",
         "url": "https://doi.org/10.1109/TRPMS.2025.3597795",
-        "source": "https://dylantsai.web.nycu.edu.tw/publications/"
+        "doi": "10.1109/TRPMS.2025.3597795",
+        "source": "https://dylantsai.web.nycu.edu.tw/publications/",
+        "crossChecked": true
       },
       {
         "year": "2025",
         "title": "An on-chip deformability checker demonstrates that the severity of iron deficiency is associated with increased deformability of red blood cells",
         "authors": "Kenji Kajitani, Tomohito Ohtani*, Rie Higuchi, Misato Chimura, Fusako Sera, C. D. Tsai , Yasutaka Ueda, Jun-ichi Nishimura, and Yasushi Sakata",
-        "venue": "Scientific Reports, 15, 19994, 2025-06. (SCI, Rank: 10/64=15.6%, Multidisciplinary Sciences. IF: 4.259)",
+        "venue": "Scientific Reports, 15, 19994, 2025-06. DOI: 10.1038/s41598-025-05483-2",
         "url": "https://doi.org/10.1038/s41598-025-05483-2",
-        "source": "https://dylantsai.web.nycu.edu.tw/publications/"
+        "doi": "10.1038/s41598-025-05483-2",
+        "source": "https://dylantsai.web.nycu.edu.tw/publications/",
+        "crossChecked": true
       },
       {
         "year": "2024",
         "title": "Voiceprint-based method for sensing droplet generation and mode transition from a coaxial microfluidic device",
         "authors": "Peng-Nian Chen, Jin-Jia Hu and C. D. Tsai*",
-        "venue": "Sensors and Actuators A: Physical, 379, 115943, 2024-10. (SCI, Rank: 14/76=18.42%, Instruments & Instrumentation IF: 4.1)",
+        "venue": "Sensors and Actuators A: Physical, 379, 115943, 2024-12. DOI: 10.1016/j.sna.2024.115943",
         "url": "https://doi.org/10.1016/j.sna.2024.115943",
-        "source": "https://dylantsai.web.nycu.edu.tw/publications/"
+        "doi": "10.1016/j.sna.2024.115943",
+        "source": "https://dylantsai.web.nycu.edu.tw/publications/",
+        "crossChecked": true
       },
       {
         "year": "2021",
@@ -130,6 +149,7 @@
         "authors": "Cheng-Yun Peng and C. D. Tsai*",
         "venue": "Polymers, 13(8), 1321, 2021-04. (SCI, Rank: 17/95=17.89%, Polymer Science. IF: 4.7)",
         "url": "https://doi.org/10.3390/polym13081321",
+        "doi": "10.3390/polym13081321",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -138,6 +158,7 @@
         "authors": "C. D. Tsai* and Chia-Hao Yeh",
         "venue": "Sensors, 21(6), 2139, 2021-03, (SCI, Rank: 15/64=23.4%, Instruments & Instrumentation. IF: 3.275)",
         "url": "http://doi.org/10.3390/s21062139",
+        "doi": "10.3390/s21062139",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -146,6 +167,7 @@
         "authors": "Shun-Hsin Yu, Jen-Shuo Chang and C. D. Tsai*",
         "venue": "Sensors, 21(4), 1461, 2021-02, (SCI, Rank: 15/64=23.4%, Instruments & Instrumentation. IF: 3.275)",
         "url": "http://doi.org/10.3390/s21041461",
+        "doi": "10.3390/s21041461",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -154,6 +176,7 @@
         "authors": "T Takayama*, M. Kaneko and C. D. Tsai",
         "venue": "Micromachines, 12(2), 217, 2021-02. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://doi.org/10.3390/mi12020217",
+        "doi": "10.3390/mi12020217",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -162,6 +185,7 @@
         "authors": "T Takayama*, N. Hosokawa, C. D. Tsai and M. Kaneko",
         "venue": "Micromachines, 11(10), 950, 2020-10. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://doi.org/10.3390/mi11100950",
+        "doi": "10.3390/mi11100950",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -170,6 +194,7 @@
         "authors": "C. Y. Peng, J. S. Wu and C. D. Tsai*",
         "venue": "IEEE Transactions on Plasma Science, 49(1), 168-176, 2020-08. (SCI, Rank: 24/34=70.6%, Physics, Fluids & Plasma. IF: 1.309)",
         "url": "http://doi.org/10.1109/TPS.2020.3012830",
+        "doi": "10.1109/TPS.2020.3012830",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -178,6 +203,7 @@
         "authors": "C. D. Tsai* and X. Y. Lin",
         "venue": "Micromachines, 10(9), 583, 2019-08. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://doi.org/10.3390/mi10090583",
+        "doi": "10.3390/mi10090583",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -186,6 +212,7 @@
         "authors": "M. Horade*, C. D. Tsai and M. Kaneko",
         "venue": "Micromachines, 10(2), 133, 2019-02. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://dx.doi.org/10.3390/mi10020133",
+        "doi": "10.3390/mi10020133",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -194,6 +221,7 @@
         "authors": "T. Takayama*, H. Miyashiro, C. D. Tsai , H. Ito, and M. Kaneko",
         "venue": "Biomicrofluidics, 12, 044108, 2018-07 (SCI, Rank: 11/34=32.4%, Physics, Fluids & Plasmas. IF: 2.504)",
         "url": "http://doi.org/10.1063/1.5033482",
+        "doi": "10.1063/1.5033482",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -202,6 +230,7 @@
         "authors": "C. D. Tsai* , T. Takayama, Y. Shimozyo, T. Akai, and M. Kaneko",
         "venue": "Biomicrofluidics, 12, 0314114, 2018-06 (SCI, Rank: 11/34=32.4%, Physics, Fluids & Plasmas. IF: 2.504)",
         "url": "http://doi.org/10.1063/1.5031082",
+        "doi": "10.1063/1.5031082",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -210,6 +239,7 @@
         "authors": "J. Lim, A. Choi, H. W. Kim , H. Yoon, S. M. Park, C. D. Tsai , M. Kaneko, and D. S. Kim*",
         "venue": "ACS Applied Materials & Interfaces, 10, 14331-14341, 201804. (SCI, Rank: 22/275=8.0%, Materials Science, Multidisciplinary. IF: 7.504)",
         "url": "http://dx.doi.org/10.1021/acsami.7b18954",
+        "doi": "10.1021/acsami.7b18954",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -218,6 +248,7 @@
         "authors": "N. Higashino, T. Takayama*, H. Ito, M. Horade, Y. Yamaguchi, C. D. Tsai and M. Kaneko",
         "venue": "Sensors, 18, 191, 2018-01. (SCI, Rank: 15/64=23.4%, Instruments & Instrumentation. IF: 3.275)",
         "url": "http://dx.doi.org/10.3390/s18010191",
+        "doi": "10.3390/s18010191",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -226,6 +257,7 @@
         "authors": "M. Horade, C. D. Tsai* , H. Ito and M. Kaneko",
         "venue": "Micromachines, 8, 100, 2017-03. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://dx.doi.org/10.3390/mi8040100",
+        "doi": "10.3390/mi8040100",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -234,22 +266,25 @@
         "authors": "K. Mizoue, K. Teramura, C. D. Tsai* , and M. Kaneko",
         "venue": "Micromachines, 8, 80, 2017-03. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://dx.doi.org/10.3390/mi8030080",
+        "doi": "10.3390/mi8030080",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Mechanical diagnosis of human erythrocytes by ultra-high speed manipulation unraveled critical time window for global cytoskeletal remodeling",
         "authors": "H. Ito, R. Murakami, S. Sakuma, C. D. Tsai , T. Gutsmann, K. Brandenburg, J. Poschl, F. Arai, M. Kaneko*, and M Tanaka*",
-        "venue": "Scientific Reports, 7, 43134, 2017-02. (SCI, Rank: 10/64=15.6%, Multidisciplinary Sciences. IF: 4.259) link , 日本経済新聞",
+        "venue": "Scientific Reports, 7, 43134, 2017-02. (SCI, Rank: 10/64=15.6%, Multidisciplinary Sciences. IF: 4.259) ,",
         "url": "http://dx.doi.org/10.1038/srep43134",
+        "doi": "10.1038/srep43134",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "An On-Chip RBC Deformability Checker Significantly Improves Velocity-Deformation Correlation",
         "authors": "C. D. Tsai* , J. Tanaka, M. Kaneko, M. Horade, H. Ito, T. Taniguchi, T. Ohtani and Y. Sakata",
-        "venue": "Micromachines, 7, 176, 2016-10. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524) link , 読売新聞 , 時事通信 ,",
+        "venue": "Micromachines, 7, 176, 2016-10. (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524) , , ,",
         "url": "http://dx.doi.org/10.3390/mi7100176",
+        "doi": "10.3390/mi7100176",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -258,22 +293,25 @@
         "authors": "K. Mizoue, M. H. Phan, C. D. Tsai* , M. Kaneko, J. Kang and W. K. Chung",
         "venue": "Micromachines, 7, 116, 2016-07 (SCI, Rank: 24/64=37.5%, Instruments & Instrumentation. IF: 2.524)",
         "url": "http://dx.doi.org/10.3390/mi7070116",
+        "doi": "10.3390/mi7070116",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "On-chip pressure sensor using single-layer concentric chambers",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "Biomicrofluidics, 10, 024116, 2016 (SCI, Rank: 11/34=32.4%, Physics, Fluids & Plasmas. IF: 2.504) Highlighted on Biomicrofluidics Facebook",
+        "venue": "Biomicrofluidics, 10, 024116, 2016 (SCI, Rank: 11/34=32.4%, Physics, Fluids & Plasmas. IF: 2.504)",
         "url": "http://www.facebook.com/Biomicrofluidics/videos/vb.7898228735/10153597940443736/?type=2&theater",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "Cell Pinball: Phenomenon and Mechanism of Inertia-Like Cell Motion in a Microfluidic Channel",
         "authors": "R. Murakami, C. D. Tsai* , M. Kaneko, S. Sakuma and F. Arai",
-        "venue": "Lab on a Chip, 15, pp3307-3313, 2015 (SCI, Rank: 6/77=7.8%, Biochemical Research Methods. IF: 6.045) Highlighted on Lab on a Chip blog video",
+        "venue": "Lab on a Chip, 15, pp3307-3313, 2015 (SCI, Rank: 6/77=7.8%, Biochemical Research Methods. IF: 6.045)",
         "url": "http://blogs.rsc.org/lc/2015/08/04/cell-pinballs-in-microfluidic-channels/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -282,6 +320,7 @@
         "authors": "T. Monzawa, M. Kaneko, C. D. Tsai* , S. Sakuma and F. Arai",
         "venue": "Biomicrofluidics, 9, no.1, 014114, 2015 (SCI, Rank: 11/34=32.4%, Physics, Fluids & Plasmas. IF: 2.504)",
         "url": "http://dx.doi.org/10.1063/1.4907757",
+        "doi": "10.1063/1.4907757",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -290,6 +329,7 @@
         "authors": "C. D. Tsai* , S. Sakuma, F. Arai, T. Taniguchi, T. Ohtani, Y. Sakata and M. Kaneko",
         "venue": "RSC Advances, 4, no.85, pp45050-45058, 2014 (SCI, Rank: 59/166=35.5%, Chemistry, Multidisciplinary. IF: 3.108)",
         "url": "http://dx.doi.org/10.1039/C4RA08276A",
+        "doi": "10.1039/C4RA08276A",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -298,6 +338,7 @@
         "authors": "C. D. Tsai* , S. Sakuma, F. Arai and M. Kaneko",
         "venue": "IEEE Transactions on Biomedical Engineering, 61, no.4, pp1187-1195, 2014 (SCI, Rank: 11/77=14.3%, Engineering, Biomedical. IF: 3.577)",
         "url": "http://dx.doi.org/10.1109/TBME.2013.2296624",
+        "doi": "10.1109/TBME.2013.2296624",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -306,6 +347,7 @@
         "authors": "S. Sakuma*, K. Kuroda, C. D. Tsai , W. Fukui, F. Arai and M. Kaneko",
         "venue": "Lab on a Chip, 14, no.6, pp1135-1141, 2014 (SCI, Rank: 6/77=7.8%, Biochemical Research Methods. IF: 6.045)",
         "url": "http://dx.doi.org/10.1039/c3lc51003d",
+        "doi": "10.1039/c3lc51003d",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -314,6 +356,7 @@
         "authors": "C. D. Tsai , I. Kao*, M. Higashimori, and M. Kaneko",
         "venue": "Advanced Robotics, 26, no. 11-12, pp1393-1418, 2012. (SCI, Rank: 20/26=76.9%, Robotics. IF: 0.920)",
         "url": "http://dx.doi.org/10.1080/01691864.2012.689744",
+        "doi": "10.1080/01691864.2012.689744",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -322,6 +365,7 @@
         "authors": "I. G. Ramirez-Alpizar, M. Higashimori*, M. Kaneko, C. D. Tsai , and I. Kao",
         "venue": "IEEE Transactions on Robotics, 28, no.3, pp607-618, 2012 . (SCI, Rank: 4/26=15.4%, Robotics. IF: 4.036)",
         "url": "http://dx.doi.org/10.1109/TRO.2011.2181098",
+        "doi": "10.1109/TRO.2011.2181098",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -330,6 +374,7 @@
         "authors": "I. Kao*, X. Li and C. D. Tsai",
         "venue": "Smart Structures and Systems, 5, no. 2, pp153-171, 2009. (SCI, Rank: 67/125=53.6%, Engineering, Mechanical. IF: 1.382)",
         "url": "http://dx.doi.org/10.12989/sss.2009.5.2.153",
+        "doi": "10.12989/sss.2009.5.2.153",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       }
     ]
@@ -341,96 +386,108 @@
         "year": "2025",
         "title": "Experimental study on the response of physical stimuli to emulsion generation on a coaxial microfluidic device",
         "authors": "Chieh-Ning Chu and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "Optimal treating path of plasma jet for PMMA microfluidic bonding with thermal resistance",
         "authors": "Shen Hui Lai and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "Distance-programmable coaxial capillary device for versatile microfluidic applications",
         "authors": "Shih-Chi Tang and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2025), (Sendai, Japan, 2025.11.10-13).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "ON-THE-FLY SWITCHING OF DOUBLE EMULSION ARCHITECTURES VIA EMBEDDED VIBRATION IN COAXIAL MICROFLUIDICS",
         "authors": "Chieh-Ning Chu and C. D. Tsai*",
-        "venue": "The 29th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS25), (Adelaide, Australia, 2025.11.2-6). conf.",
+        "venue": "The 29th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS25), (Adelaide, Australia, 2025.11.2-6).",
         "url": "https://microtas2025.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "CONTROLLING BONDING DENSITY IN ATMOSPHERIC PLASMA-BONDED PMMA MICROFLUIDIC DEVICES FOR TEMPERATURE-RESISTANT SEALING",
         "authors": "Shen-Hui Lai and C. D. Tsai*",
-        "venue": "The 29th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS25), (Adelaide, Australia, 2025.11.2-6). conf.",
+        "venue": "The 29th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS25), (Adelaide, Australia, 2025.11.2-6).",
         "url": "https://microtas2025.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "Quantitative Nano-Artifacts Exposure Toward Single Cells Utilizing a Microdroplet-Based Microfluidic System",
         "authors": "Ren Takeuchi, Makoto Saito, Rinko Kurogi, Nariaki Kiyama, Yoko Yamanishi, Kosuke Dodo, Takashi Kamatani, Yoshitaka Shirasaki, C. D. Tsai , Satoshi Yotsumoto, Niko Kimura, Shigeo S. Sugano, and Shinya Sakuma*",
-        "venue": "The 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2025), (Orlando, USA, 2025.06.29-07.03). conf.",
+        "venue": "The 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2025), (Orlando, USA, 2025.06.29-07.03).",
         "url": "https://www.transducers2025.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2025",
         "title": "Programmable Plasma Bonding for Enhancing Reliability of PMMA Microfluidic Devices",
         "authors": "Shen-Hui Lai and C. D. Tsai*",
-        "venue": "International Conference on Smart Sensors (ICSS2025), (Tainan, Taiwan, 2025.06.23-24). conf.",
+        "venue": "International Conference on Smart Sensors (ICSS2025), (Tainan, Taiwan, 2025.06.23-24).",
         "url": "https://www.icss2025.com/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2024",
         "title": "Dynamic Response of Foam in Acoustic Levitation with Phase Shifts",
         "authors": "Chia-Lun Chang, Tsung-Lin Chen, and C. D. Tsai*",
-        "venue": "The 21st International Conference on Automation Technology (Automation 2024), (Taipei, Taiwan, 2024.11.22-24). conf.",
+        "venue": "The 21st International Conference on Automation Technology (Automation 2024), (Taipei, Taiwan, 2024.11.22-24).",
         "url": "https://automation2024.ntu.edu.tw/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2024",
         "title": "Core-Driven Pinch-Off Dynamics in Microfluidic Double Emulsions",
         "authors": "C. D. Tsai* , Shih-Hsiang Weng and Shinya Sakuma",
-        "venue": "The 35th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2024), (Nagoya, Japan, 2024.11.22-24). conf.",
+        "venue": "The 35th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2024), (Nagoya, Japan, 2024.11.22-24).",
         "url": "https://www.mein.nagoya-u.ac.jp/mhs/MHS2024-Top.html",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2024",
         "title": "Experimental Study on the Configurations of Double Emulsion under Different Flow Ratios",
         "authors": "Shih-Hsiang Weng and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2024), (Sendai, Japan, 2024.11.18-20). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2024), (Sendai, Japan, 2024.11.18-20).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2024/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2024",
         "title": "Experimental Study on the Influence of Mesh Size for Microbubble Generation in Water",
         "authors": "Hsiang-Yi Wang, Kim Boon Lua, Jong-Shinn Wu and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2024), (Sendai, Japan, 2024.11.18-20). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2024), (Sendai, Japan, 2024.11.18-20).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2024/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Microparticle Shape under Varied Impact Speeds: An Experimental Study using High-Speed Camera",
         "authors": "Z. K. Yu, J. J. Hu and C. D. Tsai*",
-        "venue": "The 20th International Conference on Automation Technology (Automation 2023), (Taipei, Taiwan, 2023.12.8-10). conf.",
+        "venue": "The 20th International Conference on Automation Technology (Automation 2023), (Taipei, Taiwan, 2023.12.8-10).",
         "url": "https://www.automation2023.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -439,22 +496,25 @@
         "authors": "Yu-Lin Chen and C. D. Tsai*",
         "venue": "The Conference on Theoretical and Applied Mechanics (CTAM2023), (Yunlin, Taiwan, 2023.11.17-18).",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Formation of Crosslinked Microparticles from Coaxial Capillary with Different Gas Flowrates",
         "authors": "Z. K. Yu, J. J. Hu and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2023), (Sendai, Japan, 2023.11.06-08). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2023), (Sendai, Japan, 2023.11.06-08).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2023/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "High-Permittivity Substrates for Enhancing APPJ-Assisted Bonding on Microfluidic Chip",
         "authors": "C. C. Ni and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2023), (Sendai, Japan, 2023.11.06-08). conf. C. C. Ni won Student Best Presentation Award",
+        "venue": "International Conference on Flow Dynamics (ICFD2023), (Sendai, Japan, 2023.11.06-08). C. C. Ni won Student Best Presentation Award",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2023/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -463,158 +523,178 @@
         "authors": "Y. H. Yen, J. S. Wu and C. D. Tsai*",
         "venue": "The 7th Taiwan-Japan Workshop on Plasma Life Science and Technology (TJPL), (Hsinchu, Taiwan, 2023.10.26-28), Y. H. Yen won Excellent Poster Award",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Voiceprint for Identifying Dripping-Jetting Transition in a Coaxial Microfluidic Device",
         "authors": "P. N. Chen, J. J. Hu and C. D. Tsai*",
-        "venue": "The 27th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS23), (Katowice, Poland, 2023.10.15-19), oral presentation (<13%) . conf.",
+        "venue": "The 27th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS23), (Katowice, Poland, 2023.10.15-19), oral presentation (<13%) .",
         "url": "https://microtas2023.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Enhancing the Recognition of Speakers in Different Distances using Voice Features",
         "authors": "C. D. Tsai* , M. Hu and S. Cheng",
-        "venue": "the 52nd International Congress and Exposition on Noise Control Engineering (Inter-Noise 2023), (Chiba, Japan, 2023.08.20-23). conf.",
+        "venue": "the 52nd International Congress and Exposition on Noise Control Engineering (Inter-Noise 2023), (Chiba, Japan, 2023.08.20-23).",
         "url": "https://internoise2023.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Dripping Out Loud: Sound Analysis for Estimating Droplet Rate on a Coaxial Microfluidic Device",
         "authors": "P. N. Chen, J. J. Hu and C. D. Tsai*",
-        "venue": "International Conference on Smart Sensors (ICSS2023), (Tainan, Taiwan, 2023.06.19-20). conf. P. N. Chen won the Best Oral Paper Award",
+        "venue": "International Conference on Smart Sensors (ICSS2023), (Tainan, Taiwan, 2023.06.19-20). P. N. Chen won the Best Oral Paper Award",
         "url": "https://icss.org.tw/2023/include/index.php",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2023",
         "title": "Investigation of underwater plasma jet on its electrical properties and microbubble interaction",
         "authors": "Y. H. Yen, C. W. Hsu, J. S. Wu and C. D. Tsai*",
-        "venue": "The 7th International Symposium on Plasma & Fine Bubbles to Agriculture and Aquaculture (ISPFB2023), (Morioka, Japan, 2023.5.17-19). conf.",
+        "venue": "The 7th International Symposium on Plasma & Fine Bubbles to Agriculture and Aquaculture (ISPFB2023), (Morioka, Japan, 2023.5.17-19).",
         "url": "https://ispfb2023.sgk.iwate-u.ac.jp/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2022",
         "title": "Microparticle Formation with Different Impact Speeds",
         "authors": "C. D. Tsai* , H. Z. Lu and J. J. Hu",
-        "venue": "International Conference on Flow Dynamics (ICFD2022), (Sendai, Japan, 2022.11.09-11). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2022), (Sendai, Japan, 2022.11.09-11).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2022/index.html",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2022",
         "title": "Experimental Study on the Strength and Reversibility of Plasma Bonding with a Micronozzle",
         "authors": "Y. H. Liu and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2022), (Sendai, Japan, 2022.11.09-11). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2022), (Sendai, Japan, 2022.11.09-11).",
         "url": "https://www.ifs.tohoku.ac.jp/icfd/2022/index.html",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2022",
         "title": "Detecting Embedded Lumps using Robotic Palpation with a 3D Printed Soft Finger and Flex Sensor",
         "authors": "Y. L. Chen, T. L. Chen and C. D. Tsai*",
-        "venue": "International Conference on Smart Sensors (ICSS2022), (Taichung, Taiwan, 2022.10.22-23). conf.",
+        "venue": "International Conference on Smart Sensors (ICSS2022), (Taichung, Taiwan, 2022.10.22-23).",
         "url": "https://icss2022.conf.tw",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2021",
         "title": "Microforging for Improving the Emitting Direction of a Plasma Jet",
         "authors": "Y. H. Liu and C. D. Tsai*",
-        "venue": "The 12th Asia-Pacific International Symposium on the Basics and Applications of Plasma Science and Technology (APSPT-12), (Taipei, Taiwan, 2021.12.9-11). conf.",
+        "venue": "The 12th Asia-Pacific International Symposium on the Basics and Applications of Plasma Science and Technology (APSPT-12), (Taipei, Taiwan, 2021.12.9-11).",
         "url": "https://www.apspt12.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2021",
         "title": "Feature-based stitching for image restoration of large workpieces towards assembly automation",
         "authors": "C. Y. Lu and C. D. Tsai*",
-        "venue": "The 18th International Conference on Automation Technology (Automation 2021), (Kimmen, Taiwan, 2021.11.12-14). conf.",
+        "venue": "The 18th International Conference on Automation Technology (Automation 2021), (Kimmen, Taiwan, 2021.11.12-14).",
         "url": "http://automation2021.nqu.edu.tw/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2021",
         "title": "Experimental study on microcapsule conformation with different concentrations of sodium alginate",
         "authors": "H. Z. Lu, J. J. Hu and C. D. Tsai*",
-        "venue": "The 18th International Conference on Automation Technology (Automation 2021), (Kimmen, Taiwan, 2021.11.12-14). conf.",
+        "venue": "The 18th International Conference on Automation Technology (Automation 2021), (Kimmen, Taiwan, 2021.11.12-14).",
         "url": "http://automation2021.nqu.edu.tw/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "Robotic Grasping for Determining the Orientation of Cherry Tomato towards Smart Agriculture",
         "authors": "C. X. Wu and C. D. Tsai*",
-        "venue": "The 17th International Conference on Automation Technology (Automation 2020), (Hualien, Taiwan, 2020.11.12-14). conf.",
+        "venue": "The 17th International Conference on Automation Technology (Automation 2020), (Hualien, Taiwan, 2020.11.12-14).",
         "url": "http://automation2020.csie.ndhu.edu.tw/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "Droplet Manipulation using Plasma Treatment and Airflow",
         "authors": "C. Y. Peng and C. D. Tsai*",
-        "venue": "International Conference on Flow Dynamics (ICFD2020), (Sendai, Japan, 2020.10.28-30). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2020), (Sendai, Japan, 2020.10.28-30).",
         "url": "http://www.ifs.tohoku.ac.jp/icfd2020/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "Atmospheric-Pressure Plasma Jet Applied to Draw Versatile Microfluidic Channels for Biomedical Applications",
         "authors": "C. D. Tsai* and C. Y. Peng",
-        "venue": "International Conference on Flow Dynamics (ICFD2020), (Sendai, Japan, 2020.10.28-30). conf.",
+        "venue": "International Conference on Flow Dynamics (ICFD2020), (Sendai, Japan, 2020.10.28-30).",
         "url": "http://www.ifs.tohoku.ac.jp/icfd2020/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "Strategy of C. elegans movement in microchannels with different shapes",
         "authors": "Y. L. Hung and C. D. Tsai*",
-        "venue": "The 42nd Symposium on Chemistry and Micro/Nanosystems (Cheminas42), (Fukuoka, Japan, 2020.10.26-28). conf.",
+        "venue": "The 42nd Symposium on Chemistry and Micro/Nanosystems (Cheminas42), (Fukuoka, Japan, 2020.10.26-28).",
         "url": "http://micro-nano.chips.jp/42/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "RBC-Deformability Sensing using Deterministic Lateral Displacement and Pressure Control in a Microfluidic Channel",
         "authors": "C. D. Tsai* and W. T. Lai",
-        "venue": "International Conference on Smart Sensors (ICSS), (Kaohsiung, Taiwan, 2020.10.19-20). conf.",
+        "venue": "International Conference on Smart Sensors (ICSS), (Kaohsiung, Taiwan, 2020.10.19-20).",
         "url": "http://www.icsstw.org/ICSS_2020",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2020",
         "title": "C. elegans Motion in Microfluidic Channel for Bio-inspired Endoscopic Insertion",
         "authors": "Y. L. Hung and C. D. Tsai*",
-        "venue": "International Conference on Smart Sensors (ICSS), (Kaohsiung, Taiwan, 2020.10.19-20). conf.",
+        "venue": "International Conference on Smart Sensors (ICSS), (Kaohsiung, Taiwan, 2020.10.19-20).",
         "url": "http://www.icsstw.org/ICSS_2020",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2019",
         "title": "Wettability Distribution on the Surface Treated by Atmospheric-Pressure Plasma Jet at Different Gas Flow Rates",
         "authors": "C. Y. Peng, S. C. Chuang, C. D. Tsai*",
-        "venue": "The 11th Asia-Pacific International Symposium on the Basics and Applications of Plasma Science and Technology (APSPT-11), (Kanazawa, Japan, 2019.12.11-14), Oral Presentation . The full version is published in IEEE Tran. on Plasma Science",
+        "venue": "The 11th Asia-Pacific International Symposium on the Basics and Applications of Plasma Science and Technology (APSPT-11), (Kanazawa, Japan, 2019.12.11-14), Oral Presentation .",
         "url": "http://doi.org/10.1109/TPS.2020.3012830",
+        "doi": "10.1109/TPS.2020.3012830",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2019",
         "title": "Experimental Study on Microfluidic Mixing with Trapezoidal Obstacles in a 1000-Fold Span of Reynolds Number",
         "authors": "X. Y. Lin, H. Ito, M. Kaneko and C. D. Tsai*",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2019), (Macau, China, 2019.11), pp2441-2446. conf.",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2019), (Macau, China, 2019.11), pp2441-2446.",
         "url": "http://www.iros2019.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2019",
         "title": "Rapid PDMS-Glass Bonding using Argon Plasma Jet towards Automatic Chip Fabrication",
         "authors": "S. C. Chuang and C. D. Tsai*",
-        "venue": "The 23rd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS19), (Basel, Switzerland, 2019.10), pp1080-1081. conf.",
+        "venue": "The 23rd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS19), (Basel, Switzerland, 2019.10), pp1080-1081.",
         "url": "http://cbmsociety.org/conferences/microtas2019/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -623,6 +703,7 @@
         "authors": "C. D. Tsai*",
         "venue": "The 6th Japan-Taiwan Workshop on Plasma Life Science and Technology (JTPL2019), (Tsuruoka, Japan, 2019.7.11-13), Invited Talk .",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -631,38 +712,43 @@
         "authors": "S. C. Chuang, C. D. Tsai*",
         "venue": "The 6th Japan-Taiwan Workshop on Plasma Life Science and Technology (JTPL2019), (Tsuruoka, Japan, 2019.7.11-13), Poster Presentation .",
         "url": "",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "Rapid Prototyping of Microfluidic Channel using Atmospheric Pressure Plasma Jet",
         "authors": "Y. S. Yu, M. C. Wu, J. S. Wu and C. D. Tsai*",
-        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp551-554. conf.",
+        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp551-554.",
         "url": "http://cbmsociety.org/conferences/microtas2018/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "Push/Pull Inequality Based On-Chip Density Mixer with Active Enhancer",
         "authors": "T. Takayama*, M. Horade, C. D. Tsai and M. Kaneko",
-        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp484-486. conf.",
+        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp484-486.",
         "url": "http://cbmsociety.org/conferences/microtas2018/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "On-Chip Super High Speed Mixer",
         "authors": "T. Takayama*, N. Hosokawa, C. D. Tsai and M. Kaneko",
-        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp487-490. conf.",
+        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp487-490.",
         "url": "http://cbmsociety.org/conferences/microtas2018/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "Micromanipulator with sensitive strain gauge on tip for cell characteristics measurement",
         "authors": "M. Horade*, O. Tabata, H. Ito, T. Takayama, C. D. Tsai and M. Kaneko",
-        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp1007-1008. conf.",
+        "venue": "The 22nd International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS18), (Kaohsiung, Taiwan, 2018.11), pp1007-1008.",
         "url": "http://cbmsociety.org/conferences/microtas2018/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -671,182 +757,205 @@
         "authors": "T. Takayama*, T. Akai, C. D. Tsai and M. Kaneko",
         "venue": "IEEE International Conference on Cyborg and Bionic Systems (CBS2018), (Shenzhen, China, 2018.10.25-27), pp84-87.",
         "url": "http://doi.org/10.1109/CBS.2018.8612202",
+        "doi": "10.1109/CBS.2018.8612202",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "A Novel Fabrication of PDMS Chip using Atmospheric Pressure Plasma Jet: Hydrophobicity Modification and Feasibility Test",
         "authors": "Y. S. Yu, L. H. Kuo, M. C. Wu, J. S. Wu and C. D. Tsai*",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), (Madrid, Spain, 2018.10.1-5), pp.278-283. conf. DOI: 10.1109/IROS.2018.8594446",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), (Madrid, Spain, 2018.10.1-5), pp.278-283.",
         "url": "http://www.iros2018.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "On-Chip Virtual Vortex Gear and Its Application",
         "authors": "T. Takayama*, C. D. Tsai and M. Kaneko",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), (Madrid, Spain, 2018.10.1-5), pp5544. DOI: 10.1109/IROS.2018.8593418",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2018), (Madrid, Spain, 2018.10.1-5), pp5544.",
         "url": "http://doi.org/10.1109/IROS.2018.8593418",
+        "doi": "10.1109/IROS.2018.8593418",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "Integration of Fluctuation Spectroscopy into a Microfluidic Platform for Novel Cellular Viscoelastic Measurement",
         "authors": "H. Ito*, C. D. Tsai and M. Kaneko",
-        "venue": "The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), oral presentation (10%) , pp137-140. DOI: 10.1109/MEMSYS.2018.8346502 conf.",
+        "venue": "The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), oral presentation (10%) , pp137-140.",
         "url": "http://doi.org/10.1109/MEMSYS.2018.8346502",
+        "doi": "10.1109/MEMSYS.2018.8346502",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "H. Miyashiro*, T. Takayama, C. D. Tsai and M. Kaneko: Vibration Based Virtual Vortex Gear , The 31th IEEE Conference on ",
         "authors": "",
-        "venue": "H. Miyashiro*, T. Takayama, C. D. Tsai and M. Kaneko: Vibration Based Virtual Vortex Gear , The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), pp1128-1129. DOI: 10.1109/MEMSYS.2018.8346759 conf.",
+        "venue": "H. Miyashiro*, T. Takayama, C. D. Tsai and M. Kaneko: Vibration Based Virtual Vortex Gear , The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), pp1128-1129.",
         "url": "http://doi.org/10.1109/MEMSYS.2018.8346759",
+        "doi": "10.1109/MEMSYS.2018.8346759",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2018",
         "title": "A. Kirimoto, H. Ito*, C. D. Tsai and M. Kaneko: Measurement of Both Viscous and Elastic Constants of a Red Blood Cell in",
         "authors": "",
-        "venue": "A. Kirimoto, H. Ito*, C. D. Tsai and M. Kaneko: Measurement of Both Viscous and Elastic Constants of a Red Blood Cell in a Microchannel , The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), pp388-391. DOI: 10.1109/MEMSYS.2018.8346569 conf.",
+        "venue": "A. Kirimoto, H. Ito*, C. D. Tsai and M. Kaneko: Measurement of Both Viscous and Elastic Constants of a Red Blood Cell in a Microchannel , The 31th IEEE Conference on Micro Electro Mechanical Systems (MEMS2018), (Belfast, UK, 2018.01), pp388-391.",
         "url": "http://doi.org/10.1109/MEMSYS.2018.8346569",
+        "doi": "10.1109/MEMSYS.2018.8346569",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "3D pH Measurement For Cell Culture using CT Scan",
         "authors": "N. Higashino, T. Takayama*, H. Ito, M. Horade, C. D. Tsai and M. Kaneko",
-        "venue": "The 28th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2017), (Nagoya, Japan, 2017.12), DOI: 10.1109/MHS.2017.8305213 . conf.",
+        "venue": "The 28th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2017), (Nagoya, Japan, 2017.12), .",
         "url": "http://doi.org/10.1109/MHS.2017.8305213",
+        "doi": "10.1109/MHS.2017.8305213",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Simultaneous Observation of Cell Behavior on Substrates with Different Heights",
         "authors": "T. Taniguchi, M. Horade*, H. Ito, T. Takayama, C. D. Tsai and M. Kaneko",
-        "venue": "The 28th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2017), (Nagoya, Japan, 2017.12), DOI: 10.1109/MHS.2017.8305227 . conf.",
+        "venue": "The 28th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2017), (Nagoya, Japan, 2017.12), .",
         "url": "http://doi.org/10.1109/MHS.2017.8305227",
+        "doi": "10.1109/MHS.2017.8305227",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Pressure Dependency of Virtual Vortex Gear",
         "authors": "T. Takayama*, C. D. Tsai , H. Ito and M. Kaneko",
-        "venue": "The 21st International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS17), (Savannah,USA, 2017.10), pp293-294. conf.",
+        "venue": "The 21st International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS17), (Savannah,USA, 2017.10), pp293-294.",
         "url": "http://www.microtas2017.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Virtual Vortex Gear: Experimental Study of 3D Flow Patterns",
         "authors": "T. Takayama*, T. Akai, Y. Simozyo, C. D. Tsai and M. Kaneko",
-        "venue": "IEEE International Conference on Cyborg and Bionic Systems (ICBS2017), (Beijing, China, 2017.10), pp56-59. Best Conference Paper Award conf.",
+        "venue": "IEEE International Conference on Cyborg and Bionic Systems (ICBS2017), (Beijing, China, 2017.10), pp56-59.",
         "url": "http://dylantsai.blog.nctu.edu.tw/awards/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "3000 Hz Cell Manipulation in a Microfluidic Channel",
         "authors": "C. D. Tsai* , K. Teramura, K. Mizoue and M. Kaneko",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2017), (Vancouver, Canada, 2017.10), pp2968-2973. conf.",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2017), (Vancouver, Canada, 2017.10), pp2968-2973.",
         "url": "http://www.iros2017.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
-        "year": "2005",
+        "year": "2017",
         "title": "On-Chip RBC Deformability Checker Embedded with Vision Analyzer",
         "authors": "M. Kaneko, T. Ishida, C. D. Tsai* , H. Ito, M. Chimura, T. Taniguchi, T. Ohtani and Y. Sakata",
-        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2017), (Takamatsu, Japan, 2017.8), pp2005-2010. conf.",
+        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2017), (Takamatsu, Japan, 2017.8), pp2005-2010.",
         "url": "http://2017.ieee-icma.org/Home/Home.aspx",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Hybrid Actuation for Long-Term Cell Manipulation in a Microfluidic Channel",
         "authors": "K. Mizoue, N. Yagyu, C. D. Tsai* and M. Kaneko",
-        "venue": "IEEE International Conference on Advanced Intelligent Mechatronics (AIM2017), (Munich, Germany, 2017.07), pp1089-1094. conf.",
+        "venue": "IEEE International Conference on Advanced Intelligent Mechatronics (AIM2017), (Munich, Germany, 2017.07), pp1089-1094.",
         "url": "http://www.aim2017.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Virtual Vortex Gear",
         "authors": "C. D. Tsai* , T. Akai, M. Horade, H. Ito and M. Kaneko",
-        "venue": "The 19th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2017), (Kaohsiung, Taiwan, 2017.06), pp583-586 oral presentation (21.7%) . conf.",
+        "venue": "The 19th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2017), (Kaohsiung, Taiwan, 2017.06), pp583-586 oral presentation (21.7%) .",
         "url": "http://www.transducers2017.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Adjustable Gain for Steering Between High-Speed and High-Resolution Cell Manipulation",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 19th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2017), (Kaohsiung, Taiwan, 2017.06), pp1762-1765. conf.",
+        "venue": "The 19th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers2017), (Kaohsiung, Taiwan, 2017.06), pp1762-1765.",
         "url": "http://www.transducers2017.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Red Blood Cell Deformability upon Continuous or Repetitive Loadings",
         "authors": "H. Ito*, R. Murakami, C. D. Tsai , M. Horade, M. Tanaka and M. Kaneko",
-        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp141-144. oral presentation (9.8%) . conf.",
+        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp141-144. oral presentation (9.8%) .",
         "url": "http://www.mems17.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "Observation of Cell Pinball Through High Speed Switching Between Reflection Interference and Phase Contrast",
         "authors": "R. Murakami, A. Yamamoto, H. Ito, C. D. Tsai , M. Horade, M. Tanaka and M. Kaneko*",
-        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp1337-1338. conf.",
+        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp1337-1338.",
         "url": "http://www.mems17.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2017",
         "title": "On-Chip Cell Gym",
         "authors": "M. Horade*, M. Kaneko, C. D. Tsai , H. Ito, N. Higashino, T. Akai, U. Yokoyma, Y. Ishikawa, S. Sakuma and F. Arai",
-        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp603-604. conf.",
+        "venue": "The 30th IEEE Conference on Micro Electro Mechanical Systems (MEMS2017), (Las Vegas, USA, 2017.01), pp603-604.",
         "url": "http://www.mems17.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "Buckling of RBC under Positive and Negative Driving Pressure in a Microchannel",
         "authors": "C. D. Tsai* , M.H. Phan and M. Kaneko",
-        "venue": "The 27th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2016), (Nagoya, Japan, 2016.11), pp122-122. conf.",
+        "venue": "The 27th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2016), (Nagoya, Japan, 2016.11), pp122-122.",
         "url": "http://www.mein.nagoya-u.ac.jp/mhs/mhs2016-Top.html",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "Unexpected Beads Alignment in a Microfluidic Channel",
         "authors": "C. D. Tsai* , M.H. Phan, K. Mizoue and M. Kaneko",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2016), (Daejeon, Korea, 2016.10), pp5143-5148. conf.",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2016), (Daejeon, Korea, 2016.10), pp5143-5148.",
         "url": "http://www.iros2016.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "Cell Sweeper for Microfluidic Cavity",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS16), (Dublin, Ireland, 2016.10), pp1537-1538. conf.",
+        "venue": "The 20th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS16), (Dublin, Ireland, 2016.10), pp1537-1538.",
         "url": "http://www.microtas2016.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "\"Chameleon Effect\" of RBC Under Loading in Microfluidic Channel",
         "authors": "M. Horade*, C. D. Tsai , H. Ito, M. Tanaka and M. Kaneko",
-        "venue": "The 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS16), (Dublin, Ireland, 2016.10), pp311-312. conf.",
+        "venue": "The 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS16), (Dublin, Ireland, 2016.10), pp311-312.",
         "url": "http://www.microtas2016.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2016",
         "title": "High-Resolution Cell Manipulation for Longstanding Load on Red Blood Cells",
         "authors": "C. D. Tsai* , M. Horade, H. Ito, M. Tanaka and M. Kaneko",
-        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2016), (Harbin, China, 2016.8), pp914-919. conf.",
+        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2016), (Harbin, China, 2016.8), pp914-919.",
         "url": "http://2016.ieee-icma.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -855,94 +964,106 @@
         "authors": "R. Murakami, C. D. Tsai* , H. Ito, M. Tanaka, S. Sakuma, F. Arai and M. Kaneko",
         "venue": "IEEE International Conference on Robotics and Automation (ICRA2016), (Stockholm, Sweden, 2016.5), pp1713-1718.",
         "url": "http://dx.doi.org/10.1109/ICRA.2016.7487314",
+        "doi": "10.1109/ICRA.2016.7487314",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "Frequency Responses of On-Chip Pressure Sensor with Different Deformation Chambers",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 26th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2015), (Nagoya, Japan, 2015.11), pp292-293. conf.",
+        "venue": "The 26th International Symposium on Micro-Nano Mechatronics and Human Science (MHS2015), (Nagoya, Japan, 2015.11), pp292-293.",
         "url": "http://www.mein.nagoya-u.ac.jp/mhs/MHS2015-Top.html",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "Pressure Transmitter for Local Pressure Sensing in a Microchannel",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 9th IEEE International Conference on Nano/Molecular Medicine and Engineering (NANOMED2015), (Waikiki, Hawaii, USA, 2015.11), pp19-22. conf.",
+        "venue": "The 9th IEEE International Conference on Nano/Molecular Medicine and Engineering (NANOMED2015), (Waikiki, Hawaii, USA, 2015.11), pp19-22.",
         "url": "http://www.ieee-nanomed.org/2015/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "On-Chip Micro Manometer",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS15), (Gyeongju, Korea, 2015.10), pp1879-1881. conf.",
+        "venue": "The 19th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS15), (Gyeongju, Korea, 2015.10), pp1879-1881.",
         "url": "http://www.microtas2015.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "An On-Chip, Electricity-Free and Single-Layer Pressure Sensor for Microfluidic Applications",
         "authors": "C. D. Tsai* , T. Nakamura and M. Kaneko",
-        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2015), (Hamburg, Germany, 2015.9-10), pp165-170. conf.",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2015), (Hamburg, Germany, 2015.9-10), pp165-170.",
         "url": "http://www.iros2015.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "Novel Microfluidic Chip for Extracting Cell Deformability",
         "authors": "C. D. Tsai* , K. Mizoue, M. Kaneko, S. Sakuma and F. Arai",
-        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2015), (Beijing, China, 2015.8), pp2139-2144. conf.",
+        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2015), (Beijing, China, 2015.8), pp2139-2144.",
         "url": "http://2015.ieee-icma.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "Characteristics of Vision-Based On-Chip Pressure Sensor with Different Concentrations of Sensing Fluid",
         "authors": "Frederike Hesse, C. D. Tsai* and M. Kaneko",
-        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2015), (Beijing, China, 2015.8), pp517-522. Toshio Fukuda Best Award in Mechatronics conf.",
+        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2015), (Beijing, China, 2015.8), pp517-522.",
         "url": "http://dylantsai.blog.nctu.edu.tw/awards/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2015",
         "title": "On-Chip Pressure Sensing by Visualizing PDMS Deformation using Microbeads",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "The 28th IEEE Conference on Micro Electro Mechanical Systems (MEMS2015), (Estoril, Portugal, 2015.01), pp722-725. conf.",
+        "venue": "The 28th IEEE Conference on Micro Electro Mechanical Systems (MEMS2015), (Estoril, Portugal, 2015.01), pp722-725.",
         "url": "http://www.mems2015.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2014",
         "title": "Improving the Evaluation of Cell Deformability by Different Channel Width in a Microfluidic Device",
         "authors": "C. D. Tsai* , M. Kaneko and F. Arai",
-        "venue": "The 11th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI2014), (Kuala Lumpur, Malaysia, 2014.11), pp522-524. conf.",
+        "venue": "The 11th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI2014), (Kuala Lumpur, Malaysia, 2014.11), pp522-524.",
         "url": "http://www.kros.org/urai2014/03web011.php#FB1",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2014",
         "title": "What is the Difference of Cell Deformation between PUSH and PULL?",
         "authors": "C. D. Tsai* , S. Sakuma, F. Arai and M. Kaneko",
-        "venue": "The 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS2014), (San Antonio, USA, 2014.10), pp793-795. conf.",
+        "venue": "The 18th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS2014), (San Antonio, USA, 2014.10), pp793-795.",
         "url": "http://www.microtas2014.org/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2014",
         "title": "Evaluating RBC Deformability in a Microchannel under Mannitol Adenine Phosphate",
         "authors": "C. D. Tsai* and M. Kaneko",
-        "venue": "SICE Annual Conference (SICE2014), (Sapporo, Japan, 2014.9), pp1474-1477. conf.",
+        "venue": "SICE Annual Conference (SICE2014), (Sapporo, Japan, 2014.9), pp1474-1477.",
         "url": "http://controls.papercept.net/conferences/conferences/SICE14/program/SICE14_ContentListWeb_4.html#frat10_05",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2013",
         "title": "Image-Based Screening for Erythrocyte Characteristics of Patients Receiving Dialysis Service",
         "authors": "C. D. Tsai* , S. Yoshikawa, S. Sakuma, F. Arai and M. Kaneko",
-        "venue": "ASN Kidney Week 2013 Annual Meeting, (Atlanta, USA, 2013.11), pp128A. conf.",
+        "venue": "ASN Kidney Week 2013 Annual Meeting, (Atlanta, USA, 2013.11), pp128A.",
         "url": "http://www.asn-online.org/education/kidneyweek/archives/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -951,6 +1072,7 @@
         "authors": "S. Yoshikawa, C. D. Tsai , S. Sakuma, F. Arai and M. Kaneko*",
         "venue": "The 10th International Conference on Ubiquitous Robots and Ambient Intelligence (URAI2013), (Jeju, Korea, 2013.11), pp144-147.",
         "url": "http://dx.doi.org/10.1109/URAI.2013.6677498",
+        "doi": "10.1109/URAI.2013.6677498",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -959,6 +1081,7 @@
         "authors": "C. D. Tsai* , S. Sakuma, M. Kaneko and F. Arai",
         "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2013), (Takamatsu, Japan, 2013.8), pp261-266.",
         "url": "http://dx.doi.org/10.1109/ICMA.2013.6617928",
+        "doi": "10.1109/ICMA.2013.6617928",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -967,6 +1090,7 @@
         "authors": "C. D. Tsai* , M. Kaneko, S. Sakuma and F. Arai",
         "venue": "The 35th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC2013), (Osaka, Japan, 2013.7), pp5525-5528.",
         "url": "http://dx.doi.org/10.1109/EMBC.2013.6610801",
+        "doi": "10.1109/EMBC.2013.6610801",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -975,6 +1099,7 @@
         "authors": "C. D. Tsai* , M. Kaneko, S. Sakuma and F. Arai",
         "venue": "IEEE International Conference on Robotics and Automation (ICRA2013), (Karlsruhe, Germany, 2013.5), pp2792-2798.",
         "url": "http://dx.doi.org/10.1109/ICRA.2013.6630965",
+        "doi": "10.1109/ICRA.2013.6630965",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -983,14 +1108,16 @@
         "authors": "C. D. Tsai* , M. Kaneko, S. Sakuma and F. Arai",
         "venue": "The 23rd International Symposium on Micro-Nano Mechatronics and Human Science (MHS2012), (Nagoya, Japan, 2012.11), pp390-392.",
         "url": "http://dx.doi.org/10.1109/MHS.2012.6492475",
+        "doi": "10.1109/MHS.2012.6492475",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2012",
         "title": "Enhanced Cell Stiffness Evaluation by Two-Phase Decomposition",
         "authors": "C. D. Tsai* , M. Kaneko and F. Arai",
-        "venue": "The 16th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS2012), (Okinawa, Japan, 2012.10), pp1009-1011. conf.",
+        "venue": "The 16th International Conference on Miniaturized Systems for Chemistry and Life Sciences (MicroTAS2012), (Okinawa, Japan, 2012.10), pp1009-1011.",
         "url": "http://www.rsc.org/images/loc/2012/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -999,14 +1126,16 @@
         "authors": "C. D. Tsai* , M. Kaneko and F. Arai",
         "venue": "The 34th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC2012), (San Diego, USA, 2012.8), pp5518-5521.",
         "url": "http://dx.doi.org/10.1109/EMBC.2012.6347244",
+        "doi": "10.1109/EMBC.2012.6347244",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2012",
         "title": "Phase Decomposition of a Cell Passing Through a μ-channel: A Method for Improving the Evaluation of Cell Stiffness",
         "authors": "C. D. Tsai* , M. Kaneko, S. Sakuma and F. Arai",
-        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2012), (Chengdu, China, 2012.8), pp138-143. Best Paper Award in Automation",
+        "venue": "IEEE International Conference on Mechatronics and Automation (ICMA2012), (Chengdu, China, 2012.8), pp138-143.",
         "url": "http://dylantsai.blog.nctu.edu.tw/awards/",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1015,6 +1144,7 @@
         "authors": "I. G. Ramirez-Alpizar, M. Higashimori*, M. Kaneko, C. D. Tsai , and I. Kao",
         "venue": "IEEE International Conference on Robotics and Automation (ICRA2011), (Shanghai, China, 2011.5), pp5103-5108.",
         "url": "http://dx.doi.org/10.1109/ICRA.2011.5979782",
+        "doi": "10.1109/ICRA.2011.5979782",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1023,6 +1153,7 @@
         "authors": "J. Nishiyama, C. D. Tsai , M. Quigley, I. Kao*, A. Shibata, M. Higashimori, and M. Kaneko",
         "venue": "IEEE International Conference on Robotics and Automation (ICRA2011), (Shanghai, China, 2011.5), pp1778-1783.",
         "url": "http://dx.doi.org/10.1109/ICRA.2011.5980511",
+        "doi": "10.1109/ICRA.2011.5980511",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1031,6 +1162,7 @@
         "authors": "C. D. Tsai , I. Kao*, A. Shibata, K. Yoshimoto, M. Higashimori, and M. Kaneko",
         "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2010), (Taipei, Taiwan, 2010.10.20), pp4257-4280.",
         "url": "http://dx.doi.org/10.1109/IROS.2010.5650888",
+        "doi": "10.1109/IROS.2010.5650888",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1039,6 +1171,7 @@
         "authors": "C. D. Tsai , J. Nishiyama, I. Kao*, M. Higashimori, and M. Kaneko",
         "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2010), (Taipei, Taiwan, 2010.10.19), pp592-597.",
         "url": "http://dx.doi.org/10.1109/IROS.2010.5649734",
+        "doi": "10.1109/IROS.2010.5649734",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1047,6 +1180,7 @@
         "authors": "C. D. Tsai , I. Kao*, K. Yoshimoto, M. Higashimori, and M. Kaneko",
         "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2009), (St. Louis, MO, USA, 2009.10.13), pp3404-3409.",
         "url": "http://dx.doi.org/10.1109/IROS.2009.5354250",
+        "doi": "10.1109/IROS.2009.5354250",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1055,6 +1189,7 @@
         "authors": "C. D. Tsai , and I. Kao*",
         "venue": "IEEE International Conference on Robotics and Automation (ICRA2009), (Kobe, Japan, 2009.5.15), pp1291-1296.",
         "url": "http://dx.doi.org/10.1109/ROBOT.2009.5152679",
+        "doi": "10.1109/ROBOT.2009.5152679",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
@@ -1063,14 +1198,16 @@
         "authors": "C. D. Tsai , I. Kao*, N. Sakamoto, M. Higashimori, and M. Kaneko",
         "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2008), (Nice, France, 2008.9.24), pp1790-1795.",
         "url": "http://dx.doi.org/10.1109/IROS.2008.4651030",
+        "doi": "10.1109/IROS.2008.4651030",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       },
       {
         "year": "2024",
         "title": "添加溶劑誘發降低雷射還原銀沉積粒子能量",
         "authors": "顏翊丞、蔣東堯、洪瑞慶、邱柏凱、蔡心怡、 蔡佳宏*",
-        "venue": "中國機械工程學會第四十一屆全國學術研討會 (CSME 2024), (Kaohsiung, Taiwan, 2024.11.15-16). conf.",
+        "venue": "中國機械工程學會第四十一屆全國學術研討會 (CSME 2024), (Kaohsiung, Taiwan, 2024.11.15-16).",
         "url": "https://csme2024.nkust.edu.tw/site/page.aspx?pid=901&sid=1568&lang=cht",
+        "doi": "",
         "source": "https://dylantsai.web.nycu.edu.tw/publications/"
       }
     ]

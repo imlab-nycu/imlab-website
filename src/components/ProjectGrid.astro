@@ -3,8 +3,9 @@ import projects from '../data/projects.json';
 ---
 
 <div class="grid">
-  {projects.map((project) => (
-    <article class="card">
+  {projects.map((project, index) => (
+    <article class={`card project-card project-card-${index + 1}`}>
+      <div class="project-mark" aria-hidden="true"></div>
       <h3>{project.title}</h3>
       <p>{project.summary}</p>
       <div class="tags">
