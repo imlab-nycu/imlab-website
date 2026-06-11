@@ -20,14 +20,17 @@
     ]
   },
   {
-    "name": "Graduate researcher",
-    "role": "PhD / MS Student",
-    "group": "Students",
-    "image": "",
-    "bio": "Add current lab member biography, research topic, and contact details here.",
+    "name": "Yoshi",
+    "role": "AI Lab Assistant",
+    "group": "Lab Support",
+    "image": "/images/yoshi-lab-assistant.png",
+    "bio": "Yoshi is the lab's AI research assistant, supporting literature surveys, website updates, document organization, and research knowledge management for IMLAB.",
     "interests": [
-      "Microfluidics",
-      "Robotics"
+      "Literature surveys",
+      "Research knowledge management",
+      "Website maintenance",
+      "Scientific communication",
+      "Lab operations"
     ],
     "links": []
   }
