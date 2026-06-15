@@ -535,6 +535,98 @@ img {
   gap: 18px;
 }
 
+.alumni-list {
+  display: grid;
+  gap: 22px;
+}
+
+.alumni-group {
+  border-top: 2px solid var(--brand);
+  padding-top: 12px;
+}
+
+.alumni-group-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.alumni-group-header h3 {
+  margin: 0;
+  color: var(--brand-deep);
+  font-size: 1.08rem;
+}
+
+.alumni-group-header span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.alumni-group ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.alumni-group li {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  padding: 12px 14px;
+}
+
+.alumni-name-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.alumni-name-row strong {
+  font-size: 1rem;
+}
+
+.alumni-name-row span,
+.alumni-group li p {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.alumni-name-row span {
+  white-space: nowrap;
+}
+
+.alumni-group li p {
+  margin: 6px 0 0;
+  line-height: 1.45;
+}
+
+.alumni-group li p span {
+  color: var(--accent);
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.alumni-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.alumni-links a {
+  border-bottom: 2px solid var(--gold);
+  color: var(--brand-deep);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
 .avatar {
   width: 110px;
   aspect-ratio: 1;
@@ -627,6 +719,20 @@ img {
   .grid,
   .grid.two {
     grid-template-columns: 1fr;
+  }
+
+  .alumni-group ul {
+    grid-template-columns: 1fr;
+  }
+
+  .alumni-name-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .alumni-name-row span {
+    white-space: normal;
   }
 
   .news-item,

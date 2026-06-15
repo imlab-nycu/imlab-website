@@ -4,6 +4,19 @@ import people from '../data/people.json';
 
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+const currentPeople = people.filter((person) => person.group !== 'Alumni');
+const alumni = people.filter((person) => person.group === 'Alumni');
+const alumniGroups = Object.entries(
+  alumni.reduce((groups, person) => {
+    const cohort = person.cohort || 'Other alumni';
+    groups[cohort] = [...(groups[cohort] || []), person];
+    return groups;
+  }, {})
+).sort(([a], [b]) => {
+  if (a === 'Other alumni') return 1;
+  if (b === 'Other alumni') return -1;
+  return Number(b.replace('M', '')) - Number(a.replace('M', ''));
+});
 ---
 
 <BaseLayout title="People">
@@ -16,8 +29,14 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
     </p>
   </header>
   <section class="section">
+    <div class="section-header compact">
+      <div>
+        <p class="section-kicker">Current Team</p>
+        <h2>Faculty, students, and lab support</h2>
+      </div>
+    </div>
     <div class="grid two">
-      {people.map((person) => (
+      {currentPeople.map((person) => (
         <article class="card person">
           {person.image ? (
             <img class="avatar" src={withBase(person.image)} alt={person.name} />
@@ -41,6 +60,47 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
           </div>
         </article>
       ))}
+    </div>
+  </section>
+  <section class="band">
+    <div class="section">
+      <div class="section-header compact">
+        <div>
+          <p class="section-kicker">Alumni</p>
+          <h2>Former IMLAB researchers</h2>
+        </div>
+        <p>Historical member records imported from the 2022 IMLAB website archive.</p>
+      </div>
+      <div class="alumni-list">
+        {alumniGroups.map(([cohort, members]) => (
+          <section class="alumni-group" aria-labelledby={`alumni-${cohort}`}>
+            <div class="alumni-group-header">
+              <h3 id={`alumni-${cohort}`}>{cohort}</h3>
+              <span>{members.length} alumni</span>
+            </div>
+            <ul>
+              {members.map((person) => (
+                <li>
+                  <div class="alumni-name-row">
+                    <strong>{person.name}</strong>
+                    <span>{person.role}</span>
+                  </div>
+                  {person.thesis ? (
+                    <p><span>Thesis</span>{person.thesis}</p>
+                  ) : (
+                    <p>{person.bio}</p>
+                  )}
+                  {person.links.length > 0 && (
+                    <div class="alumni-links">
+                      {person.links.map((link) => <a href={link.url}>{link.label}</a>)}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
     </div>
   </section>
 </BaseLayout>

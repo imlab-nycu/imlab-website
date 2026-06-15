@@ -20,6 +20,50 @@
     ]
   },
   {
+    "name": "賴慎徽 Shen Hui Lai",
+    "role": "Master's Student",
+    "group": "M13",
+    "image": "/images/shen-hui-lai.jpg",
+    "bio": "Master's student in the Design and Manufacturing Division. His research focuses on atmospheric-pressure plasma jet-assisted enhancement of thermal resistance in PMMA microfluidic bonding, with skills in plasma systems, mechanical design, and FDM/SLA 3D printing.",
+    "interests": [
+      "Atmospheric pressure plasma jet",
+      "PMMA microfluidics",
+      "Microfluidic bonding",
+      "Mechanical design",
+      "3D printing"
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:chrislai.140113@gmail.com"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shen-hui-lai140113"
+      }
+    ]
+  },
+  {
+    "name": "陳易唯 Yi-Wei Chen",
+    "role": "Master's Student",
+    "group": "M13",
+    "image": "",
+    "bio": "Master's student in the Robotics Program. He develops software architectures for autonomous mobile robots and embedded systems, implementing ROS 2, SLAM, and autonomous exploration algorithms for navigation and real-world deployment.",
+    "interests": [
+      "ROS 2",
+      "SLAM",
+      "Autonomous exploration",
+      "Mobile robotics",
+      "Embedded systems"
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:yiweichen.en13@nycu.edu.tw"
+      }
+    ]
+  },
+  {
     "name": "Yoshi",
     "role": "AI Lab Assistant",
     "group": "Lab Support",
@@ -33,5 +77,550 @@
       "Lab operations"
     ],
     "links": []
+  },
+  {
+    "name": "Yogesh Maheshbhai Patel",
+    "role": "Former Ph.D. Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former Ph.D. student in the NCTU-IIT Joint Program. Research topic: Machine Learning for Improving Image Resolution.",
+    "interests": [
+      "NCTU-IIT Joint Program",
+      "Machine learning",
+      "Image resolution",
+      "Microfluidic device for cell analysis"
+    ],
+    "links": []
+  },
+  {
+    "name": "胡哲豪 Michael",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Design and Manufacturing Division. Thesis: 基於聲音特徵強化在不同距離和環境的人聲識別.",
+    "interests": [
+      "機械所設計製造組",
+      "Voice recognition",
+      "Sound features",
+      "Distance and environment compensation"
+    ],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "基於聲音特徵強化在不同距離和環境的人聲識別"
+  },
+  {
+    "name": "呂慧真",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Micro/Nano Division.",
+    "interests": [
+      "機械所微奈米組"
+    ],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "使用衝擊速度與交聯競爭生成不同型態海藻酸鈣微粒"
+  },
+  {
+    "name": "黃俊銘",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Design and Manufacturing Division.",
+    "interests": [
+      "機械所設計製造組"
+    ],
+    "links": [],
+    "cohort": "M08",
+    "thesis": "利用常壓電漿束與液膜表面張力佈局達到自動晶片對位"
+  },
+  {
+    "name": "鄭又勛",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Robotics Program.",
+    "interests": [
+      "機器人學程"
+    ],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "基於主要像素與區域分析的圖像漸層檢測"
+  },
+  {
+    "name": "劉于瑄",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Design and Manufacturing Division.",
+    "interests": [
+      "機械所設計製造組"
+    ],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "利用電漿束調控表面處理分布達到可逆式晶片接合"
+  },
+  {
+    "name": "倪靖傑",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Micro/Nano Division.",
+    "interests": [
+      "機械所微奈米組"
+    ],
+    "links": [],
+    "cohort": "M10",
+    "thesis": "利用高介電背板提升常壓電漿輔助晶片接合效率"
+  },
+  {
+    "name": "張祐誠",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Mechanical Engineering Design and Manufacturing Division.",
+    "interests": [
+      "機械所設計製造組"
+    ],
+    "links": [],
+    "cohort": "M10",
+    "thesis": "結合心臟麻痺液灌注導管與反射鏡以提高手術視野與操作性"
+  },
+  {
+    "name": "陳裕霖",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Robotics Program, Group B.",
+    "interests": [
+      "機器人學程乙組"
+    ],
+    "links": [],
+    "cohort": "M10",
+    "thesis": "利用軟手指彎曲訊號特徵識別皮下腫塊位置與大小"
+  },
+  {
+    "name": "陳佑瑄",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Robotics Program, Group A.",
+    "interests": [
+      "機器人學程甲組"
+    ],
+    "links": [],
+    "cohort": "M10",
+    "thesis": "以機器學習預測振動傳遞率達到指尖觸覺重現"
+  },
+  {
+    "name": "葉權緯",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 盟立自動化股份有限公司課長.",
+    "interests": [
+      "專班精密與自動化組",
+      "盟立自動化股份有限公司課長"
+    ],
+    "links": []
+  },
+  {
+    "name": "謝文健",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 政美應用股份有限公司機構工程師.",
+    "interests": [
+      "專班精密與自動化組",
+      "政美應用股份有限公司機構工程師"
+    ],
+    "links": []
+  },
+  {
+    "name": "林品賢",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 日商川崎股份台北分公司機器人事務所服務工程師.",
+    "interests": [
+      "專班精密與自動化組",
+      "日商川崎股份台北分公司機器人事務所服務工程師"
+    ],
+    "links": []
+  },
+  {
+    "name": "賴國銘",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 明新科技大學專業講師.",
+    "interests": [
+      "專班精密與自動化組",
+      "明新科技大學專業講師"
+    ],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "利用支援向量機與影像特徵達到樹上無花果熟度自動化辨識"
+  },
+  {
+    "name": "楊智玲",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 兆晟奈米科技股份有限公司機構工程師.",
+    "interests": [
+      "專班精密與自動化組",
+      "兆晟奈米科技股份有限公司機構工程師"
+    ],
+    "links": []
+  },
+  {
+    "name": "陳世康",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 中山科學研究院飛彈火箭研究所.",
+    "interests": [
+      "專班精密與自動化組",
+      "中山科學研究院飛彈火箭研究所"
+    ],
+    "links": []
+  },
+  {
+    "name": "黃建豪",
+    "role": "Former Working-Student Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 京元電子股份有限公司資深工程師.",
+    "interests": [
+      "專班精密與自動化組",
+      "京元電子股份有限公司資深工程師"
+    ],
+    "links": []
+  },
+  {
+    "name": "洪藝凌",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Robotics Program. Research topic: Vision-Based Force Analysis on Serpentine Crawl of Nematodes on a Chip.",
+    "interests": [
+      "機器人學程",
+      "Nematodes on a chip",
+      "Vision-based force analysis"
+    ],
+    "links": [
+      {
+        "label": "ICSS2020",
+        "url": "https://www.icsstw.org/ICSS_2020"
+      }
+    ],
+    "cohort": "M08",
+    "thesis": "機器視覺應用於晶片上線蟲爬行之力學分析"
+  },
+  {
+    "name": "吳昌賢",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Research topic: Development of Smart Gripper and its Application on Non-Destructive Crop Inspection.",
+    "interests": [
+      "機械所設計製造組",
+      "Smart gripper",
+      "Non-destructive crop inspection"
+    ],
+    "links": [
+      {
+        "label": "Automation2020",
+        "url": "https://automation2020.csie.ndhu.edu.tw"
+      }
+    ],
+    "cohort": "M08",
+    "thesis": "智慧夾爪開發並應用於非破壞性作物檢測"
+  },
+  {
+    "name": "彭成昀",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Micro/Nano Division. Research topic: Universal Plasma Jet for Droplet Manipulation on an Underived PDMS Surface.",
+    "interests": [
+      "機械所微奈米組",
+      "Plasma jet",
+      "Droplet manipulation",
+      "PDMS surface"
+    ],
+    "links": [
+      {
+        "label": "ICFD2020",
+        "url": "http://www.ifs.tohoku.ac.jp/icfd2020/"
+      },
+      {
+        "label": "IEEE Transactions on Plasma Science",
+        "url": "https://doi.org/10.1109/TPS.2020.3012830"
+      }
+    ],
+    "cohort": "M08",
+    "thesis": "多功能電漿束用於 PDMS 表面上的液滴操控"
+  },
+  {
+    "name": "葉家豪",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Research topic: Neural Network for Enhancing the Image Resolution of Optical Microscope.",
+    "interests": [
+      "機械所設計製造組",
+      "Neural network",
+      "Microscope image resolution"
+    ],
+    "links": [
+      {
+        "label": "Sensors 2021",
+        "url": "https://doi.org/10.3390/s21062139"
+      }
+    ],
+    "cohort": "M06",
+    "thesis": "應用類神經網路強化光學顯微鏡影像解析度"
+  },
+  {
+    "name": "鄒育呈",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Engineering Master's Program for Working Students, Precision and Automation Division. Research topic: 非線性模型應用於 X-RAY 鑽靶機之熱壓合變形補償 / Non-linear model for X-Ray Drilling Machine to compensate for deformation from hot pressing. Company/title listed in the 2022 archive: 博偉高新科技股份有限公司研發工程師.",
+    "interests": [
+      "專班精密與自動化組",
+      "X-Ray drilling machine",
+      "Thermal deformation compensation"
+    ],
+    "links": [],
+    "cohort": "M07",
+    "thesis": "非線性模型應用於 X-RAY 鑽靶機之熱壓合變形補償"
+  },
+  {
+    "name": "賴章婷",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Micro/Nano Division. Research topic: On-Chip Evaluation of Red Blood Cell Deformability using Deterministic Lateral Displacement.",
+    "interests": [
+      "機械所微奈米組",
+      "Red blood cell deformability",
+      "Deterministic lateral displacement"
+    ],
+    "links": [
+      {
+        "label": "ICSS2020",
+        "url": "https://www.icsstw.org/ICSS_2020"
+      }
+    ],
+    "cohort": "M07",
+    "thesis": "確定性橫向位移應用於晶片上紅血球形變能力檢測"
+  },
+  {
+    "name": "莊識諭",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Research topic: Atmospheric-Pressure Plasma Jet for Microfluidic Chips Bonding and Applications.",
+    "interests": [
+      "機械所設計製造組",
+      "Atmospheric-pressure plasma jet",
+      "Microfluidic chip bonding"
+    ],
+    "links": [
+      {
+        "label": "MicroTAS2019",
+        "url": "https://cbmsociety.org/conferences/microtas2019/"
+      }
+    ],
+    "cohort": "M07",
+    "thesis": "常壓電漿束應用於微流體晶片之接合研究"
+  },
+  {
+    "name": "俞順馨",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Robotics Program. Research topic: Object Classification using Grasping Signal and Machine Learning.",
+    "interests": [
+      "機器人學程",
+      "Object classification",
+      "Grasping signal",
+      "Machine learning"
+    ],
+    "links": [
+      {
+        "label": "Sensors 2021",
+        "url": "https://doi.org/10.3390/s21041461"
+      }
+    ],
+    "cohort": "M07",
+    "thesis": "基於機器學習與抓握訊號的物件辨識手套"
+  },
+  {
+    "name": "張仁碩",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Research topic: Machine Learning-Based Image Segmentation for Enhancing the Throughput of Cell Evaluation on a Chip.",
+    "interests": [
+      "機械所設計製造組",
+      "Image segmentation",
+      "Cell evaluation on a chip"
+    ],
+    "links": [
+      {
+        "label": "Sensors 2021",
+        "url": "https://doi.org/10.3390/s21041461"
+      }
+    ],
+    "cohort": "M07",
+    "thesis": "機器學習輔助影像分割用於提升晶片上細胞檢測通量"
+  },
+  {
+    "name": "游亞榮",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Thesis: Atmospheric Pressure Plasma for Rapid Fabrication of Microfluidic Chip.",
+    "interests": [
+      "機械所設計製造組",
+      "Atmospheric pressure plasma",
+      "Microfluidic chip fabrication"
+    ],
+    "links": [
+      {
+        "label": "IROS 2018",
+        "url": "https://doi.org/10.1109/IROS.2018.8594446"
+      },
+      {
+        "label": "MicroTAS 2018",
+        "url": "https://cbmsociety.org/conferences/microtas2018/"
+      }
+    ],
+    "cohort": "M06",
+    "thesis": "常壓電漿應用於快速微流體晶片製作"
+  },
+  {
+    "name": "林芯伃",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Graduated from the Mechanical Engineering Design and Manufacturing Division. Thesis: Experimental Study on the Effect of Zigzag Angle and Flowrate for Microfluidic Mixing.",
+    "interests": [
+      "機械所設計製造組",
+      "Microfluidic mixing",
+      "Zigzag angle",
+      "Flowrate"
+    ],
+    "links": [
+      {
+        "label": "Micromachines 2019",
+        "url": "https://doi.org/10.3390/mi10090583"
+      }
+    ],
+    "cohort": "M06",
+    "thesis": "探討曲折角度與流速對微流混合之影響"
+  },
+  {
+    "name": "顧桐",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 氧氣低溫大氣壓電漿產生長壽命物質與短壽命物質在人類A2058黑色素瘤細胞裸鼠模型上的療效與副作用.",
+    "interests": [],
+    "links": [],
+    "cohort": "M08",
+    "thesis": "氧氣低溫大氣壓電漿產生長壽命物質與短壽命物質在人類A2058黑色素瘤細胞裸鼠模型上的療效與副作用"
+  },
+  {
+    "name": "呂承祐",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 影像處理與紅外線特徵應用於自動化組裝中工件識別.",
+    "interests": [],
+    "links": [],
+    "cohort": "M09",
+    "thesis": "影像處理與紅外線特徵應用於自動化組裝中工件識別"
+  },
+  {
+    "name": "李念謙",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 利用田口法及 YOLO 強化焊縫式塗佈缺陷檢測準確率與性能.",
+    "interests": [],
+    "links": [],
+    "cohort": "M10",
+    "thesis": "利用田口法及 YOLO 強化焊縫式塗佈缺陷檢測準確率與性能"
+  },
+  {
+    "name": "陳鵬年",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 利用聲紋特徵即時監測微液滴生成及其性質.",
+    "interests": [],
+    "links": [],
+    "cohort": "M11",
+    "thesis": "利用聲紋特徵即時監測微液滴生成及其性質"
+  },
+  {
+    "name": "顏佑芯",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 探討氣體流量對含電漿空蝕微氣泡的生成及活性物質影響.",
+    "interests": [],
+    "links": [],
+    "cohort": "M11",
+    "thesis": "探討氣體流量對含電漿空蝕微氣泡的生成及活性物質影響"
+  },
+  {
+    "name": "余振愷",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 衝擊速度對亞百微米海藻酸鈣微粒形態影響.",
+    "interests": [],
+    "links": [],
+    "cohort": "M11",
+    "thesis": "衝擊速度對亞百微米海藻酸鈣微粒形態影響"
+  },
+  {
+    "name": "翁識翔",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 探討同軸微流系統中核液滴性質對雙重乳化液滴分裂的影響.",
+    "interests": [],
+    "links": [],
+    "cohort": "M12",
+    "thesis": "探討同軸微流系統中核液滴性質對雙重乳化液滴分裂的影響"
+  },
+  {
+    "name": "張家倫",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 超聲波懸浮中等效彈簧阻尼參數之實驗驗證與聲壓衰減修正.",
+    "interests": [],
+    "links": [],
+    "cohort": "M12",
+    "thesis": "超聲波懸浮中等效彈簧阻尼參數之實驗驗證與聲壓衰減修正"
+  },
+  {
+    "name": "王翔毅",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 利用網格輔助生成電漿微氣泡以提高RONS溶解效率.",
+    "interests": [],
+    "links": [],
+    "cohort": "M12",
+    "thesis": "利用網格輔助生成電漿微氣泡以提高RONS溶解效率"
   }
 ]
