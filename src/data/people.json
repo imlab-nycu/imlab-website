@@ -14,8 +14,16 @@
     ],
     "links": [
       {
+        "label": "Email",
+        "url": "mailto:dylantsai@nycu.edu.tw"
+      },
+      {
         "label": "Profile",
         "url": "https://dylantsai.web.nycu.edu.tw/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/chttsai/"
       }
     ]
   },
@@ -36,6 +44,14 @@
       {
         "label": "Email",
         "url": "mailto:jg971518@gmail.com"
+      },
+      {
+        "label": "ICFD2025",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/"
+      },
+      {
+        "label": "MicroTAS2025",
+        "url": "https://microtas2025.org/"
       }
     ]
   },
@@ -60,6 +76,18 @@
       {
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/shen-hui-lai140113"
+      },
+      {
+        "label": "ICFD2025",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/"
+      },
+      {
+        "label": "MicroTAS2025",
+        "url": "https://microtas2025.org/"
+      },
+      {
+        "label": "ICSS2025",
+        "url": "https://www.icss2025.com/"
       }
     ]
   },
@@ -110,7 +138,8 @@
       "Image resolution",
       "Microfluidic device for cell analysis"
     ],
-    "links": []
+    "links": [],
+    "showOnWebsite": false
   },
   {
     "name": "胡哲豪 Michael",
@@ -124,7 +153,12 @@
       "Sound features",
       "Distance and environment compensation"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "Inter-Noise2023",
+        "url": "https://internoise2023.org/"
+      }
+    ],
     "cohort": "M09",
     "thesis": "基於聲音特徵強化在不同距離和環境的人聲識別"
   },
@@ -137,7 +171,16 @@
     "interests": [
       "機械所微奈米組"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "ICFD2022",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2022/index.html"
+      },
+      {
+        "label": "Automation2021",
+        "url": "http://automation2021.nqu.edu.tw/"
+      }
+    ],
     "cohort": "M09",
     "thesis": "使用衝擊速度與交聯競爭生成不同型態海藻酸鈣微粒"
   },
@@ -176,7 +219,16 @@
     "interests": [
       "機械所設計製造組"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "ICFD2022",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2022/index.html"
+      },
+      {
+        "label": "APSPT-12",
+        "url": "https://www.apspt12.org/"
+      }
+    ],
     "cohort": "M09",
     "thesis": "利用電漿束調控表面處理分布達到可逆式晶片接合"
   },
@@ -189,7 +241,12 @@
     "interests": [
       "機械所微奈米組"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "ICFD2023",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2023/"
+      }
+    ],
     "cohort": "M10",
     "thesis": "利用高介電背板提升常壓電漿輔助晶片接合效率"
   },
@@ -215,7 +272,16 @@
     "interests": [
       "機器人學程乙組"
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "CTAM2023",
+        "url": ""
+      },
+      {
+        "label": "ICSS2022",
+        "url": "https://icss2022.conf.tw"
+      }
+    ],
     "cohort": "M10",
     "thesis": "利用軟手指彎曲訊號特徵識別皮下腫塊位置與大小"
   },
@@ -242,7 +308,8 @@
       "專班精密與自動化組",
       "盟立自動化股份有限公司課長"
     ],
-    "links": []
+    "links": [],
+    "showOnWebsite": false
   },
   {
     "name": "謝文健",
@@ -333,6 +400,10 @@
       {
         "label": "ICSS2020",
         "url": "https://www.icsstw.org/ICSS_2020"
+      },
+      {
+        "label": "Cheminas42",
+        "url": "http://micro-nano.chips.jp/42/"
       }
     ],
     "cohort": "M08",
@@ -378,6 +449,10 @@
       {
         "label": "IEEE Transactions on Plasma Science",
         "url": "https://doi.org/10.1109/TPS.2020.3012830"
+      },
+      {
+        "label": "APSPT-11",
+        "url": "http://doi.org/10.1109/TPS.2020.3012830"
       }
     ],
     "cohort": "M08",
@@ -512,11 +587,11 @@
     ],
     "links": [
       {
-        "label": "IROS 2018",
+        "label": "IROS2018",
         "url": "https://doi.org/10.1109/IROS.2018.8594446"
       },
       {
-        "label": "MicroTAS 2018",
+        "label": "MicroTAS2018",
         "url": "https://cbmsociety.org/conferences/microtas2018/"
       }
     ],
@@ -539,6 +614,10 @@
       {
         "label": "Micromachines 2019",
         "url": "https://doi.org/10.3390/mi10090583"
+      },
+      {
+        "label": "IROS2019",
+        "url": "http://www.iros2019.org/"
       }
     ],
     "cohort": "M06",
@@ -562,7 +641,12 @@
     "image": "",
     "bio": "Former master's student. Thesis: 影像處理與紅外線特徵應用於自動化組裝中工件識別.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "Automation2021",
+        "url": "http://automation2021.nqu.edu.tw/"
+      }
+    ],
     "cohort": "M09",
     "thesis": "影像處理與紅外線特徵應用於自動化組裝中工件識別"
   },
@@ -584,7 +668,16 @@
     "image": "",
     "bio": "Former master's student. Thesis: 利用聲紋特徵即時監測微液滴生成及其性質.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "MicroTAS2023",
+        "url": "https://microtas2023.org/"
+      },
+      {
+        "label": "ICSS2023",
+        "url": "https://icss.org.tw/2023/include/index.php"
+      }
+    ],
     "cohort": "M11",
     "thesis": "利用聲紋特徵即時監測微液滴生成及其性質"
   },
@@ -595,7 +688,16 @@
     "image": "",
     "bio": "Former master's student. Thesis: 探討氣體流量對含電漿空蝕微氣泡的生成及活性物質影響.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "TJPL2023",
+        "url": ""
+      },
+      {
+        "label": "ISPFB2023",
+        "url": "https://ispfb2023.sgk.iwate-u.ac.jp/"
+      }
+    ],
     "cohort": "M11",
     "thesis": "探討氣體流量對含電漿空蝕微氣泡的生成及活性物質影響"
   },
@@ -606,7 +708,16 @@
     "image": "",
     "bio": "Former master's student. Thesis: 衝擊速度對亞百微米海藻酸鈣微粒形態影響.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "Automation2023",
+        "url": "https://www.automation2023.org/"
+      },
+      {
+        "label": "ICFD2023",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2023/"
+      }
+    ],
     "cohort": "M11",
     "thesis": "衝擊速度對亞百微米海藻酸鈣微粒形態影響"
   },
@@ -617,7 +728,16 @@
     "image": "",
     "bio": "Former master's student. Thesis: 探討同軸微流系統中核液滴性質對雙重乳化液滴分裂的影響.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "MHS2024",
+        "url": "https://www.mein.nagoya-u.ac.jp/mhs/MHS2024-Top.html"
+      },
+      {
+        "label": "ICFD2024",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2024/"
+      }
+    ],
     "cohort": "M12",
     "thesis": "探討同軸微流系統中核液滴性質對雙重乳化液滴分裂的影響"
   },
@@ -628,7 +748,12 @@
     "image": "",
     "bio": "Former master's student. Thesis: 超聲波懸浮中等效彈簧阻尼參數之實驗驗證與聲壓衰減修正.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "Automation2024",
+        "url": "https://automation2024.ntu.edu.tw/"
+      }
+    ],
     "cohort": "M12",
     "thesis": "超聲波懸浮中等效彈簧阻尼參數之實驗驗證與聲壓衰減修正"
   },
@@ -639,7 +764,12 @@
     "image": "",
     "bio": "Former master's student. Thesis: 利用網格輔助生成電漿微氣泡以提高RONS溶解效率.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "ICFD2024",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2024/"
+      }
+    ],
     "cohort": "M12",
     "thesis": "利用網格輔助生成電漿微氣泡以提高RONS溶解效率"
   },
@@ -650,7 +780,12 @@
     "image": "",
     "bio": "Former master's student. Thesis: 硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響.",
     "interests": [],
-    "links": [],
+    "links": [
+      {
+        "label": "CSME2024",
+        "url": "https://csme2024.nkust.edu.tw/site/page.aspx?pid=901&sid=1568&lang=cht"
+      }
+    ],
     "cohort": "M12",
     "thesis": "硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響"
   }

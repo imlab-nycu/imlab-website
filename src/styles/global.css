@@ -476,6 +476,59 @@ img {
   gap: 44px;
 }
 
+.publication-tabs {
+  margin-bottom: -16px;
+}
+
+.publication-tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-tab {
+  appearance: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 12px 10px 10px;
+}
+
+.publication-tab small {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.publication-tab:hover,
+.publication-tab:focus-visible,
+.publication-tab.active {
+  color: var(--brand-deep);
+}
+
+.publication-tab:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.publication-tab.active {
+  border-bottom-color: var(--accent);
+}
+
+.publication-section[hidden] {
+  display: none;
+}
+
 .publication-section-header {
   display: flex;
   align-items: baseline;
@@ -533,6 +586,153 @@ img {
   display: grid;
   grid-template-columns: 110px minmax(0, 1fr);
   gap: 18px;
+}
+
+.people-tabs {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 0 0 18px;
+}
+
+.people-tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.people-tab {
+  appearance: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 12px 10px 10px;
+}
+
+.people-tab:hover,
+.people-tab:focus-visible,
+.people-tab.active {
+  color: var(--brand-deep);
+}
+
+.people-tab:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.people-tab.active {
+  border-bottom-color: var(--accent);
+}
+
+.people-panel[hidden] {
+  display: none;
+}
+
+.program-list {
+  display: grid;
+  gap: 18px;
+}
+
+.program-group {
+  border-top: 2px solid var(--brand);
+  padding-top: 12px;
+}
+
+.program-group-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.program-group-header h3 {
+  margin: 0;
+  color: var(--brand-deep);
+  font-size: 1.08rem;
+}
+
+.program-group-header span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.program-group ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.program-group li {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  padding: 12px 14px;
+}
+
+.program-group strong {
+  font-size: 1rem;
+}
+
+.program-group li > span {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.program-group em,
+.alumni-badges span {
+  width: fit-content;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand-deep);
+  font-size: 0.74rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 4px 8px;
+}
+
+.program-group p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.program-proposal span {
+  color: var(--accent);
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.program-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.program-keywords span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--brand-deep);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 3px 7px;
 }
 
 .alumni-list {
@@ -600,6 +800,13 @@ img {
 
 .alumni-name-row span {
   white-space: nowrap;
+}
+
+.alumni-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
 }
 
 .alumni-group li p {
@@ -721,7 +928,50 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .publication-tab-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 0;
+  }
+
+  .publication-tab {
+    justify-content: space-between;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    text-align: left;
+  }
+
+  .publication-tab.active {
+    border-color: var(--brand);
+    border-bottom-color: var(--brand);
+    background: var(--panel-strong);
+  }
+
+  .people-tab-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 0;
+  }
+
+  .people-tab {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--white);
+    text-align: left;
+  }
+
+  .people-tab.active {
+    border-color: var(--brand);
+    border-bottom-color: var(--brand);
+    background: var(--panel-strong);
+  }
+
   .alumni-group ul {
+    grid-template-columns: 1fr;
+  }
+
+  .program-group ul {
     grid-template-columns: 1fr;
   }
 

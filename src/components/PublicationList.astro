@@ -3,14 +3,59 @@ import publications from '../data/publications.json';
 
 const { featuredOnly = false } = Astro.props;
 const journalSection = publications.find((section) => section.category === 'Journal Publications');
+const categoryOrder = [
+  'Journal Publications',
+  'Conference Publications',
+  'Patent',
+  'Book / Chapter / Article'
+];
+const categoryLabels = {
+  'Journal Publications': 'Journals',
+  'Conference Publications': 'Conferences',
+  Patent: 'Patents',
+  'Book / Chapter / Article': 'Books & Chapters'
+};
+const slugify = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 const sections = featuredOnly && journalSection
   ? [{ category: 'Recent Journal Publications', items: journalSection.items.slice(0, 5) }]
-  : publications;
+  : [...publications].sort((a, b) => categoryOrder.indexOf(a.category) - categoryOrder.indexOf(b.category));
+const activeSection = sections[0]?.category;
 ---
 
 <div class="publication-groups">
+  {!featuredOnly && (
+    <div class="publication-tabs" data-publication-tabs>
+      <div class="publication-tab-list" role="tablist" aria-label="Publication categories">
+        {sections.map((section) => {
+          const active = section.category === activeSection;
+          const slug = slugify(section.category);
+          return (
+            <button
+              type="button"
+              class:list={['publication-tab', { active }]}
+              id={`tab-${slug}`}
+              role="tab"
+              aria-selected={active ? 'true' : 'false'}
+              aria-controls={`panel-${slug}`}
+              data-publication-tab={slug}
+            >
+              <span>{categoryLabels[section.category] || section.category}</span>
+              <small>{section.items.length}</small>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  )}
   {sections.map((section) => (
-    <section class="publication-section">
+    <section
+      class:list={['publication-section', { active: section.category === activeSection }]}
+      id={`panel-${slugify(section.category)}`}
+      role={!featuredOnly ? 'tabpanel' : undefined}
+      aria-labelledby={!featuredOnly ? `tab-${slugify(section.category)}` : undefined}
+      data-publication-panel={!featuredOnly ? slugify(section.category) : undefined}
+      hidden={!featuredOnly && section.category !== activeSection}
+    >
       <div class="publication-section-header">
         <h2>{section.category}</h2>
         <span>{section.items.length} entries</span>
@@ -32,3 +77,30 @@ const sections = featuredOnly && journalSection
     </section>
   ))}
 </div>
+{!featuredOnly && (
+  <script>
+    const publicationRoot = document.querySelector('[data-publication-tabs]');
+    const publicationTabs = Array.from(document.querySelectorAll('[data-publication-tab]'));
+    const publicationPanels = Array.from(document.querySelectorAll('[data-publication-panel]'));
+
+    const activatePublicationTab = (target) => {
+      publicationTabs.forEach((button) => {
+        const active = button.dataset.publicationTab === target;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+
+      publicationPanels.forEach((panel) => {
+        const active = panel.dataset.publicationPanel === target;
+        panel.classList.toggle('active', active);
+        panel.hidden = !active;
+      });
+    };
+
+    publicationRoot?.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-publication-tab]');
+      if (!button) return;
+      activatePublicationTab(button.dataset.publicationTab);
+    });
+  </script>
+)}

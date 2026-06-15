@@ -1,11 +1,23 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import people from '../data/people.json';
+import inServiceStudents from '../data/inServiceStudents.json';
 
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
-const currentPeople = people.filter((person) => person.group !== 'Alumni');
-const alumni = people.filter((person) => person.group === 'Alumni');
+const visiblePeople = people.filter((person) => person.showOnWebsite !== false);
+const currentPeople = visiblePeople.filter((person) => person.group !== 'Alumni');
+const inServiceGroups = inServiceStudents.groups;
+const currentProfessionalGroups = inServiceGroups.filter((group) => group.status !== 'Graduated');
+const graduatedInServiceNames = new Set(
+  inServiceGroups.find((group) => group.status === 'Graduated')?.students.map((student) => student.name) || []
+);
+const currentInServiceNames = new Set(
+  inServiceGroups
+    .filter((group) => group.status !== 'Graduated')
+    .flatMap((group) => group.students.map((student) => student.name))
+);
+const alumni = visiblePeople.filter((person) => person.group === 'Alumni' && !currentInServiceNames.has(person.name));
 const alumniGroups = Object.entries(
   alumni.reduce((groups, person) => {
     const cohort = person.cohort || 'Other alumni';
@@ -28,7 +40,20 @@ const alumniGroups = Object.entries(
       robotics, plasma-enabled fabrication, and biomedical device research.
     </p>
   </header>
-  <section class="section">
+  <div class="people-tabs" data-people-tabs>
+    <div class="people-tab-list" role="tablist" aria-label="People categories">
+      <button type="button" class="people-tab active" id="tab-current-team" role="tab" aria-selected="true" aria-controls="panel-current-team" data-people-tab="current-team">
+        Current Team
+      </button>
+      <button type="button" class="people-tab" id="tab-professional-masters" role="tab" aria-selected="false" aria-controls="panel-professional-masters" data-people-tab="professional-masters">
+        Professional Master's Students
+      </button>
+      <button type="button" class="people-tab" id="tab-alumni" role="tab" aria-selected="false" aria-controls="panel-alumni" data-people-tab="alumni">
+        Alumni
+      </button>
+    </div>
+  </div>
+  <section class="section people-panel active" id="panel-current-team" role="tabpanel" aria-labelledby="tab-current-team" data-people-panel="current-team">
     <div class="section-header compact">
       <div>
         <p class="section-kicker">Current Team</p>
@@ -62,7 +87,52 @@ const alumniGroups = Object.entries(
       ))}
     </div>
   </section>
-  <section class="band">
+  <section class="section people-panel" id="panel-professional-masters" role="tabpanel" aria-labelledby="tab-professional-masters" data-people-panel="professional-masters" hidden>
+    <div class="section-header compact">
+      <div>
+        <p class="section-kicker">Professional Master's Programs</p>
+        <h2>Working professionals in engineering master's programs</h2>
+      </div>
+      <p>
+        Practicing engineers and professionals enrolled in NYCU in-service master's degree programs,
+        primarily the College of Engineering Degree Program of Automation and Precision Engineering.
+      </p>
+    </div>
+    <div class="program-list">
+      {currentProfessionalGroups.map((group) => (
+        <section class="program-group" aria-labelledby={`in-service-${group.status.replaceAll(' ', '-').toLowerCase()}`}>
+          <div class="program-group-header">
+            <h3 id={`in-service-${group.status.replaceAll(' ', '-').toLowerCase()}`}>{group.label}</h3>
+            <span>{group.students.length} students</span>
+          </div>
+          <ul>
+            {group.students.map((student) => (
+              <li>
+                <strong>{student.name}</strong>
+                <span>{student.cohort}</span>
+                <em>{group.status}</em>
+                {student.program && <p>{student.program}</p>}
+                {student.note && <p>{student.note}</p>}
+                {student.proposalTitle && (
+                  <p class="program-proposal">
+                    <span>Proposal</span>
+                    {student.proposalTitle}
+                  </p>
+                )}
+                {student.proposalTitleEn && <p>{student.proposalTitleEn}</p>}
+                {student.keywords && (
+                  <div class="program-keywords">
+                    {student.keywords.map((keyword) => <span>{keyword}</span>)}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+  <section class="band people-panel" id="panel-alumni" role="tabpanel" aria-labelledby="tab-alumni" data-people-panel="alumni" hidden>
     <div class="section">
       <div class="section-header compact">
         <div>
@@ -85,6 +155,11 @@ const alumniGroups = Object.entries(
                     <strong>{person.name}</strong>
                     <span>{person.role}</span>
                   </div>
+                  {graduatedInServiceNames.has(person.name) && (
+                    <div class="alumni-badges">
+                      <span>Professional Master's Program</span>
+                    </div>
+                  )}
                   {person.thesis ? (
                     <p><span>Thesis</span>{person.thesis}</p>
                   ) : (
@@ -103,4 +178,29 @@ const alumniGroups = Object.entries(
       </div>
     </div>
   </section>
+  <script>
+    const tabRoot = document.querySelector('[data-people-tabs]');
+    const tabButtons = Array.from(document.querySelectorAll('[data-people-tab]'));
+    const tabPanels = Array.from(document.querySelectorAll('[data-people-panel]'));
+
+    const activateTab = (target) => {
+      tabButtons.forEach((button) => {
+        const active = button.dataset.peopleTab === target;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+
+      tabPanels.forEach((panel) => {
+        const active = panel.dataset.peoplePanel === target;
+        panel.classList.toggle('active', active);
+        panel.hidden = !active;
+      });
+    };
+
+    tabRoot?.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-people-tab]');
+      if (!button) return;
+      activateTab(button.dataset.peopleTab);
+    });
+  </script>
 </BaseLayout>

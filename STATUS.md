@@ -1,0 +1,111 @@
+# Project Overview
+
+- Purpose of the project: Maintain and publish the Intelligent Microsystem Lab (IMLAB) public website.
+- Main repository or location: `/home/tsai/YoshiNAS/Websites/imlab-website`
+- Important links:
+  - Repository: `https://github.com/imlab-nycu/imlab-website.git`
+  - Published site: `https://imlab-nycu.github.io/imlab-website/`
+  - Current unpublished preview: `http://localhost:4324/imlab-website`
+  - Network preview: `http://192.168.50.254:4324/imlab-website`
+
+# Current Status
+
+- Current objective: Review unpublished People page/member updates, including conference labels and the new Professional Master's Programs section, before publishing.
+- Work completed:
+  - Imported 2022 WordPress member records as alumni.
+  - Updated People page behavior to separate current team from alumni.
+  - Created a local preview from the unpublished working tree.
+  - Sent individual profile-information request emails to the current M13/M14 lab members, CCing Dylan.
+  - Made the alumni section more compact and added thesis titles for M06-M12 alumni provided by Dylan.
+  - Corrected the M09 voice-recognition thesis entry from `邵哲豪` to the existing alumnus `胡哲豪 Michael`.
+  - Checked Gmail for member profile replies; 賴慎徽 and 陳易唯 have replied.
+  - Added 賴慎徽 Shen Hui Lai and 陳易唯 Yi-Wei Chen to the Current Team section.
+  - Downloaded and added 賴慎徽's attached photo as `public/images/shen-hui-lai.jpg`.
+  - Published the updated website to GitHub Pages.
+  - Replied by email to 賴慎徽 and 陳易唯 with the public People page link.
+  - Added 朱婕寧 Chieh-Ning Chu's polished profile information to the Current Team section in the local preview.
+  - Added M12 alumnus 顏翊丞 and thesis title to the local alumni list.
+  - Corrected alumni names: 莊識錡, 賴韋婷, 鄒宥呈, and 游亞燊.
+  - Published the 朱婕寧 / 顏翊丞 / alumni-name-correction update.
+  - Replied by email to 朱婕寧 with the public People page link.
+  - Locally associated lab members/alumni with conference publications and added conference labels to profile links where author matching was reliable.
+  - Added a separate professional master's program data file and People page section.
+  - Marked graduated in-service students 鄒宥呈, 賴國銘, and 李念謙.
+  - Added current in-service students grouped by proposal-defense status: 7 with proposal defense completed and 17 before proposal defense.
+  - Filtered current in-service students out of the Alumni rendering to avoid duplicate current/alumni display.
+  - Marked M10 李念謙 and M11 戴立明 as belonging to the Degree Program of Applied Science and Technology.
+  - Converted the People page into tabs: Current Team, Professional Master's Students, and Alumni.
+  - Hid dropped members Yogesh Maheshbhai Patel and 葉權緯 from website rendering while keeping their records in `src/data/people.json`.
+  - Converted the Publications page into tabs ordered by academic browsing priority: Journals, Conferences, Patents, and Books & Chapters.
+  - Kept the homepage featured-publications component unchanged; tabs only render on the full Publications page.
+  - Changed the public lab contact email from Dylan's email to `yoshi.imlab@gmail.com`.
+  - Added Dylan's email and LinkedIn to the PI profile links.
+  - Removed draft/helper text under the Publications page title.
+  - Removed draft/helper text under the Contact page Public Profiles card.
+  - Added proposal titles and keyword tags for the 7 current professional master's students who have completed proposal defense.
+- Current version or deployment state:
+  - Repository branch: `main`
+  - Latest source commit pushed to `main`: `38b10cc` (`Update member and alumni data`).
+  - Latest deployment commit pushed to `gh-pages`: `65257dd` (`Deploy member and alumni data updates`).
+  - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
+  - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
+
+# Important Files
+
+- `src/data/people.json`: PI, current team, and alumni data.
+- `src/pages/people.astro`: People page rendering and visibility behavior.
+- `src/data/site.json`: Lab identity, contact links, and navigation.
+- `src/data/projects.json`: Research themes and projects.
+- `src/data/publications.json`: Selected publications.
+- `src/data/news.json`: News and updates.
+- `astro.config.mjs`: GitHub Pages `site` and `base` configuration.
+- `public/images/`: Website image assets.
+- `dist/`: Generated static output after `npm run build`.
+
+# Pending Decisions
+
+- Wait for current lab members to reply with profile information and photos.
+- Wait for 陳易唯's representative photo.
+- Wait for 朱婕寧's representative photo.
+- Review the new Professional Master's Programs section before publishing.
+- Review the new People page tabs before publishing.
+- Review the new Publications page tabs before publishing.
+- Review the compact alumni layout in the preview before publishing.
+- Review the conference labels added to member/alumni profiles before publishing.
+- Decide whether `visibility_audit_2026-06-13.md` should be committed, revised, or removed.
+- Reconcile the standing authorization for Delaney/Telegram website publication with the general external-action approval rule before publishing from non-Dylan prompts.
+
+# Session Handover Notes
+
+- Before starting work, read this file and `TODO.md`.
+- Use `/home/tsai/YoshiNAS/Websites/imlab-website` as the working folder.
+- If dependencies are missing or broken, run `npm install`; the NAS copy previously had an incomplete `node_modules`.
+- Build with `npm run build`.
+- Preview with `npm run dev -- --port <free-port>` or `npm run preview -- --port <free-port>`.
+- The active temporary preview at the time this file was written is served from `/tmp/imlab-yoshinas-preview` on port `4324`; refresh that temp copy if source files change.
+- The preview copy was refreshed after the compact alumni/thesis update, and `astro build` passed there.
+- The preview copy was refreshed after the `胡哲豪 Michael` alumni correction, and `astro build` passed there.
+- The sent email record is saved at `/home/tsai/YoshiNAS/Knowledge/EmailDrafts/2026-06-15_lab_website_member_info_request_sent_current_members.md`.
+- Gmail replies received so far: 賴慎徽 replied with profile information and one attached photo; 陳易唯 replied with profile information and said the photo will be provided later.
+- The preview copy was refreshed after adding 賴慎徽 and 陳易唯 to Current Team, and `astro build` passed there.
+- The public People page was checked after deployment and showed 賴慎徽 and 陳易唯; `shen-hui-lai.jpg` returned HTTP 200.
+- 朱婕寧 replied with profile information but no photo attachment; her polished profile has been added locally and the synced preview build passed.
+- M12 alumni now includes 顏翊丞 with thesis title `硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響`; synced preview build passed.
+- Alumni name corrections confirmed in preview: 莊識錡, 賴韋婷, 鄒宥呈, 游亞燊. The older incorrect variants no longer appear.
+- Public People page was checked after deployment and shows 朱婕寧, 顏翊丞, 莊識錡, 賴韋婷, 鄒宥呈, and 游亞燊.
+- Local preview now includes conference labels from matched publication authors, including examples such as ICFD2025, MicroTAS2025, ICSS2025, MHS2024, Automation2024, Inter-Noise2023, and CSME2024. This update has not been published.
+- Local preview now includes a Professional Master's Programs section sourced from `src/data/inServiceStudents.json`.
+- In-service section counts at last verification: 3 graduated, 7 current with proposal defense completed, 17 current before proposal defense.
+- The section text describes these members as practicing engineers and professionals in NYCU in-service master's degree programs, primarily the College of Engineering Degree Program of Automation and Precision Engineering.
+- Verification for the professional master's program update: `jq empty src/data/inServiceStudents.json` passed; `/tmp/imlab-yoshinas-preview` build with synced files passed; dev preview at `http://localhost:4324/imlab-website/people/` showed the new section and graduated professional master's alumni badges.
+- Tab verification: `/tmp/imlab-yoshinas-preview` build passed after adding tabs; rendered HTML includes Current Team, Professional Master's Students, and Alumni tab controls; Yogesh Maheshbhai Patel and 葉權緯 are absent from rendered People HTML.
+- Publications tab verification: `/tmp/imlab-yoshinas-preview` build passed; rendered Publications HTML includes Journals, Conferences, Patents, and Books & Chapters tabs with counts; homepage featured-publications output does not include publication tabs.
+- Contact verification: `/tmp/imlab-yoshinas-preview` build passed; Contact page and footer render `yoshi.imlab@gmail.com`.
+- Profile/content cleanup verification: `/tmp/imlab-yoshinas-preview` build passed; People page renders Dylan's email and LinkedIn links; Publications and Contact helper text are absent from preview HTML.
+- Professional master's proposal metadata verification: `jq empty src/data/inServiceStudents.json` passed; `/tmp/imlab-yoshinas-preview` build passed; rendered People HTML includes proposal titles and keyword tags for all 7 proposal-defense-completed professional master's students.
+- The main NAS working tree could not run `npm run build` directly because `astro` was missing from `node_modules`; `npm install` and `npm ci` were attempted but hung on the NAS copy and were stopped. The preview copy has a working dependency install.
+- Email replies sent:
+  - 賴慎徽: Gmail message id `19ec9ba4daa10bf7`
+  - 陳易唯: Gmail message id `19ec9ba4f98a85dc`
+  - 朱婕寧: Gmail message id `19ecabef8684b358`
+- Before ending a website work session, update this file and `CHANGELOG.md`; add future tasks to `TODO.md`.

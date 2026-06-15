@@ -1,0 +1,183 @@
+{
+  "groups": [
+    {
+      "status": "Graduated",
+      "label": "Graduated professional master's students",
+      "students": [
+        {
+          "name": "鄒宥呈",
+          "cohort": "M07"
+        },
+        {
+          "name": "賴國銘",
+          "cohort": "M09"
+        },
+        {
+          "name": "李念謙",
+          "cohort": "M10",
+          "program": "Degree Program of Applied Science and Technology"
+        }
+      ]
+    },
+    {
+      "status": "Proposal passed",
+      "label": "Proposal defense completed",
+      "students": [
+        {
+          "name": "謝文健",
+          "cohort": "M08",
+          "proposalTitle": "精密微動拉伸機開發與黏彈性特性量測應用",
+          "proposalTitleEn": "Development of Precision Micro-Tensile Testing Machine and Its Application in Viscoelastic Property Measurement",
+          "keywords": [
+            "Precision micro-tensile testing",
+            "Viscoelasticity",
+            "Mechanical characterization",
+            "Instrument development"
+          ]
+        },
+        {
+          "name": "傅廷明",
+          "cohort": "M09",
+          "proposalTitle": "利用機器學習影像識別提高晶圓上殘留晶粒檢測的準確性",
+          "keywords": [
+            "Machine learning",
+            "Image recognition",
+            "Wafer inspection",
+            "Residual die detection"
+          ]
+        },
+        {
+          "name": "簡婉婷",
+          "cohort": "M10",
+          "proposalTitle": "影像辨識應用於濺鍍後表面色偏缺陷檢測",
+          "keywords": [
+            "Image recognition",
+            "Sputtering defects",
+            "Surface color shift",
+            "Defect inspection"
+          ]
+        },
+        {
+          "name": "余承晏",
+          "cohort": "M11",
+          "proposalTitle": "利用紅外線熱影像提升低光環境下物件辨識準確率",
+          "keywords": [
+            "Infrared thermal imaging",
+            "Low-light object recognition",
+            "Computer vision",
+            "Detection accuracy"
+          ]
+        },
+        {
+          "name": "徐靖翔",
+          "cohort": "M12",
+          "proposalTitle": "自適應弧面濾除應用於無編碼料箱姿態定位",
+          "keywords": [
+            "Adaptive surface filtering",
+            "Bin pose localization",
+            "Pose estimation",
+            "Uncoded bins"
+          ]
+        },
+        {
+          "name": "林家揚",
+          "cohort": "M13",
+          "proposalTitle": "利用亮度分區與權重遮罩提升關燈工廠環境的物件辨識準確率",
+          "keywords": [
+            "Brightness segmentation",
+            "Weighted masking",
+            "Lights-out factory",
+            "Object recognition"
+          ]
+        },
+        {
+          "name": "羅斌",
+          "cohort": "M09",
+          "proposalTitle": "以機械學習分析震動訊號實現馬達狀態偵測系統",
+          "keywords": [
+            "Machine learning",
+            "Vibration signals",
+            "Motor condition monitoring",
+            "Fault detection"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "Proposal pending",
+      "label": "Before proposal defense",
+      "students": [
+        {
+          "name": "王和畯",
+          "cohort": "M14"
+        },
+        {
+          "name": "樓一風",
+          "cohort": "M14"
+        },
+        {
+          "name": "何季寰",
+          "cohort": "M14"
+        },
+        {
+          "name": "王志輝",
+          "cohort": "M13"
+        },
+        {
+          "name": "何達昀",
+          "cohort": "M13"
+        },
+        {
+          "name": "陳奕翔",
+          "cohort": "M12"
+        },
+        {
+          "name": "林恩寧",
+          "cohort": "M12"
+        },
+        {
+          "name": "何祁軒",
+          "cohort": "M12"
+        },
+        {
+          "name": "范宥駿",
+          "cohort": "M11"
+        },
+        {
+          "name": "李新屏",
+          "cohort": "M11"
+        },
+        {
+          "name": "戴立明",
+          "cohort": "M11",
+          "program": "Degree Program of Applied Science and Technology",
+          "note": "Proposal defense not required for this program"
+        },
+        {
+          "name": "呂秉叡",
+          "cohort": "M11"
+        },
+        {
+          "name": "黃建豪",
+          "cohort": "M10"
+        },
+        {
+          "name": "黃勁嵻",
+          "cohort": "M10"
+        },
+        {
+          "name": "陳世康",
+          "cohort": "M10"
+        },
+        {
+          "name": "楊智玲",
+          "cohort": "M10"
+        },
+        {
+          "name": "林品賢",
+          "cohort": "M09"
+        }
+      ]
+    }
+  ]
+}
