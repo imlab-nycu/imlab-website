@@ -20,6 +20,26 @@
     ]
   },
   {
+    "name": "朱婕寧 Chieh-Ning Chu",
+    "role": "Master's Student",
+    "group": "M13",
+    "image": "",
+    "bio": "Master's student in the Micro/Nano Division. Her research focuses on on-the-fly switching of droplet generation via vibration in coaxial microfluidic systems.",
+    "interests": [
+      "Microfluidics",
+      "Double emulsion",
+      "Vibration",
+      "Coaxial microfluidics",
+      "Droplet generation"
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:jg971518@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "賴慎徽 Shen Hui Lai",
     "role": "Master's Student",
     "group": "M13",
@@ -384,7 +404,7 @@
     "thesis": "應用類神經網路強化光學顯微鏡影像解析度"
   },
   {
-    "name": "鄒育呈",
+    "name": "鄒宥呈",
     "role": "Former Master's Student",
     "group": "Alumni",
     "image": "",
@@ -399,7 +419,7 @@
     "thesis": "非線性模型應用於 X-RAY 鑽靶機之熱壓合變形補償"
   },
   {
-    "name": "賴章婷",
+    "name": "賴韋婷",
     "role": "Former Master's Student",
     "group": "Alumni",
     "image": "",
@@ -419,7 +439,7 @@
     "thesis": "確定性橫向位移應用於晶片上紅血球形變能力檢測"
   },
   {
-    "name": "莊識諭",
+    "name": "莊識錡",
     "role": "Former Master's Student",
     "group": "Alumni",
     "image": "",
@@ -480,7 +500,7 @@
     "thesis": "機器學習輔助影像分割用於提升晶片上細胞檢測通量"
   },
   {
-    "name": "游亞榮",
+    "name": "游亞燊",
     "role": "Former Master's Student",
     "group": "Alumni",
     "image": "",
@@ -622,5 +642,16 @@
     "links": [],
     "cohort": "M12",
     "thesis": "利用網格輔助生成電漿微氣泡以提高RONS溶解效率"
+  },
+  {
+    "name": "顏翊丞",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student. Thesis: 硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響.",
+    "interests": [],
+    "links": [],
+    "cohort": "M12",
+    "thesis": "硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響"
   }
 ]
