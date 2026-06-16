@@ -827,7 +827,8 @@ img {
   margin-top: 8px;
 }
 
-.alumni-links a {
+.alumni-links a,
+.alumni-links span {
   border-bottom: 2px solid var(--gold);
   color: var(--brand-deep);
   font-size: 0.84rem;
@@ -857,7 +858,8 @@ img {
   margin-top: 18px;
 }
 
-.link-list a {
+.link-list a,
+.link-list span {
   border-bottom: 2px solid var(--gold);
   color: var(--brand-deep);
   font-weight: 800;

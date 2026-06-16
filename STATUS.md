@@ -43,10 +43,12 @@
   - Removed draft/helper text under the Publications page title.
   - Removed draft/helper text under the Contact page Public Profiles card.
   - Added proposal titles and keyword tags for the 7 current professional master's students who have completed proposal defense.
+  - Published the People tabs, Publications tabs, professional master's section, contact/profile cleanup, and proposal metadata update to GitHub Pages.
+  - Render URL-less profile labels as plain text badges instead of broken anchors.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest source commit pushed to `main`: `38b10cc` (`Update member and alumni data`).
-  - Latest deployment commit pushed to `gh-pages`: `65257dd` (`Deploy member and alumni data updates`).
+  - Latest source commit pushed to `main`: pending final publish-fix commit for this session.
+  - Latest deployment commit pushed to `gh-pages`: pending final publish-fix deployment for this session.
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
@@ -67,11 +69,7 @@
 - Wait for current lab members to reply with profile information and photos.
 - Wait for 陳易唯's representative photo.
 - Wait for 朱婕寧's representative photo.
-- Review the new Professional Master's Programs section before publishing.
-- Review the new People page tabs before publishing.
-- Review the new Publications page tabs before publishing.
-- Review the compact alumni layout in the preview before publishing.
-- Review the conference labels added to member/alumni profiles before publishing.
+- Review post-publication pages after the final publish-fix deployment propagates.
 - Decide whether `visibility_audit_2026-06-13.md` should be committed, revised, or removed.
 - Reconcile the standing authorization for Delaney/Telegram website publication with the general external-action approval rule before publishing from non-Dylan prompts.
 
@@ -103,6 +101,7 @@
 - Contact verification: `/tmp/imlab-yoshinas-preview` build passed; Contact page and footer render `yoshi.imlab@gmail.com`.
 - Profile/content cleanup verification: `/tmp/imlab-yoshinas-preview` build passed; People page renders Dylan's email and LinkedIn links; Publications and Contact helper text are absent from preview HTML.
 - Professional master's proposal metadata verification: `jq empty src/data/inServiceStudents.json` passed; `/tmp/imlab-yoshinas-preview` build passed; rendered People HTML includes proposal titles and keyword tags for all 7 proposal-defense-completed professional master's students.
+- Public verification after the first deployment showed the new People tabs, proposal titles, publication tabs, contact email, and PI links. It also surfaced two URL-less conference labels, so the People renderer was updated to show missing-URL labels as text badges.
 - The main NAS working tree could not run `npm run build` directly because `astro` was missing from `node_modules`; `npm install` and `npm ci` were attempted but hung on the NAS copy and were stopped. The preview copy has a working dependency install.
 - Email replies sent:
   - 賴慎徽: Gmail message id `19ec9ba4daa10bf7`

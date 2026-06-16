@@ -66,6 +66,8 @@
 - Verified People page renders Dylan's email and LinkedIn links.
 - Verified Publications and Contact helper text are absent from rendered preview HTML.
 - Verified each proposal-defense-completed professional master's student has proposal metadata in the rendered People page preview.
+- Published the source update to `main` and deployed the static site to `gh-pages`.
+- Fixed URL-less profile labels so they render as text badges instead of broken anchors.
 
 ### Removed
 
