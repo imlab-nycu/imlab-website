@@ -47,8 +47,8 @@
   - Render URL-less profile labels as plain text badges instead of broken anchors.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest source commit pushed to `main`: pending final publish-fix commit for this session.
-  - Latest deployment commit pushed to `gh-pages`: pending final publish-fix deployment for this session.
+  - Latest website source/content commit pushed to `main`: `d2e60a9` (`Fix profile labels without URLs`).
+  - Latest deployment commit pushed to `gh-pages`: `35bf6f6` (`Deploy profile label fix`).
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
