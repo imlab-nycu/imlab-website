@@ -49,8 +49,8 @@
   - Render URL-less profile labels as plain text badges instead of broken anchors.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `d2e60a9` (`Fix profile labels without URLs`).
-  - Latest deployment commit pushed to `gh-pages`: `35bf6f6` (`Deploy profile label fix`).
+  - Latest website source/content commit pushed to `main`: `85a6018` (`Add ORCA AUV news item`).
+  - Latest deployment commit pushed to `gh-pages`: `f770ee2` (`Deploy ORCA AUV news item`).
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
