@@ -73,7 +73,7 @@
 - Wait for 朱婕寧's representative photo.
 - Review post-publication pages after the final publish-fix deployment propagates.
 - Decide whether `visibility_audit_2026-06-13.md` should be committed, revised, or removed.
-- Reconcile the standing authorization for Delaney/Telegram website publication with the general external-action approval rule before publishing from non-Dylan prompts.
+- Dylan confirmed that Delany/Delaney on Telegram is authorized to request publishing IMLAB website/webpage updates. Scope is website/webpage publishing only, not email or private student-related actions.
 
 # Session Handover Notes
 

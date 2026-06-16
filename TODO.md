@@ -14,7 +14,6 @@
 
 ## Medium Priority
 
-- [ ] Confirm the Delaney/Telegram publication approval workflow for future website changes.
 - [ ] Check whether older alumni records need additional dates, roles, thesis titles, or photos.
 
 ## Low Priority
