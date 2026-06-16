@@ -39,6 +39,7 @@
 ### Added
 
 - Added `src/data/inServiceStudents.json` for professional master's program status tracking.
+- Added the ORCA AUV / SAUVC 2026 finals news item with a CNA source link.
 - Added a Professional Master's Programs section to the People page.
 - Added graduated in-service student markers for 鄒宥呈, 賴國銘, and 李念謙.
 - Added current in-service student groups for proposal defense completed and proposal pending.
@@ -54,6 +55,7 @@
 - Added responsive styling for the in-service program list and alumni in-service badges.
 - Hid dropped members Yogesh Maheshbhai Patel and 葉權緯 from website rendering while keeping their source records.
 - Changed the public lab contact email to `yoshi.imlab@gmail.com`.
+- Changed news titles with URLs to render as external links.
 - Removed draft/helper text from the Publications page title area and Contact page Public Profiles card.
 
 ### Fixed

@@ -576,6 +576,16 @@ img {
   font-size: 1.05rem;
 }
 
+.news-item h3 a {
+  color: inherit;
+  text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  text-underline-offset: 3px;
+}
+
+.news-item h3 a:hover {
+  color: var(--accent);
+}
+
 .pub-item p,
 .news-item p {
   margin: 0;

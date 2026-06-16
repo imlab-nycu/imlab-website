@@ -42,6 +42,8 @@
   - Added Dylan's email and LinkedIn to the PI profile links.
   - Removed draft/helper text under the Publications page title.
   - Removed draft/helper text under the Contact page Public Profiles card.
+  - Added the NYCU ORCA AUV / SAUVC 2026 finals news item with a CNA source link.
+  - Made news titles clickable when a news item has a URL.
   - Added proposal titles and keyword tags for the 7 current professional master's students who have completed proposal defense.
   - Published the People tabs, Publications tabs, professional master's section, contact/profile cleanup, and proposal metadata update to GitHub Pages.
   - Render URL-less profile labels as plain text badges instead of broken anchors.
