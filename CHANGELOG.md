@@ -74,3 +74,23 @@
 ### Removed
 
 - Nothing.
+
+## 2026-06-17
+
+### Added
+
+- Added placeholder Current Team profiles for Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
+
+### Changed
+
+- Changed the People page template to skip empty interest/tag rows for sparse placeholder profiles.
+
+### Fixed
+
+- Verified `src/data/people.json` with `jq`.
+- Verified the People page build in `/tmp/imlab-yoshinas-preview`, since the NAS working tree dependency install still lacks `astro`.
+- Verified rendered People HTML includes all six placeholder profiles.
+
+### Removed
+
+- Nothing.

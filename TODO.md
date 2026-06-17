@@ -2,7 +2,7 @@
 
 - [ ] Add 陳易唯's representative photo when he provides it.
 - [ ] Add 朱婕寧's representative photo when she provides it.
-- [ ] Collect profile information and photos from current M13/M14 lab members.
+- [ ] Replace placeholder profiles for Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan when they provide profile information and photos.
 - [ ] Decide whether to keep, revise, or remove `visibility_audit_2026-06-13.md`.
 
 ## Recently Published

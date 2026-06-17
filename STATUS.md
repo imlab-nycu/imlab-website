@@ -10,7 +10,7 @@
 
 # Current Status
 
-- Current objective: Review unpublished People page/member updates, including conference labels and the new Professional Master's Programs section, before publishing.
+- Current objective: Keep current-member profiles updated as replies, photos, and research details arrive.
 - Work completed:
   - Imported 2022 WordPress member records as alumni.
   - Updated People page behavior to separate current team from alumni.
@@ -47,6 +47,8 @@
   - Added proposal titles and keyword tags for the 7 current professional master's students who have completed proposal defense.
   - Published the People tabs, Publications tabs, professional master's section, contact/profile cleanup, and proposal metadata update to GitHub Pages.
   - Render URL-less profile labels as plain text badges instead of broken anchors.
+  - Added placeholder Current Team profiles for Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan while waiting for member-provided details.
+  - Changed the People page template to skip empty interest/tag rows for sparse placeholder profiles.
 - Current version or deployment state:
   - Repository branch: `main`
   - Latest website source/content commit pushed to `main`: `85a6018` (`Add ORCA AUV news item`).
@@ -68,7 +70,7 @@
 
 # Pending Decisions
 
-- Wait for current lab members to reply with profile information and photos.
+- Replace placeholder profiles when Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan reply with profile information and photos.
 - Wait for 陳易唯's representative photo.
 - Wait for 朱婕寧's representative photo.
 - Review post-publication pages after the final publish-fix deployment propagates.
@@ -105,6 +107,7 @@
 - Professional master's proposal metadata verification: `jq empty src/data/inServiceStudents.json` passed; `/tmp/imlab-yoshinas-preview` build passed; rendered People HTML includes proposal titles and keyword tags for all 7 proposal-defense-completed professional master's students.
 - Public verification after the first deployment showed the new People tabs, proposal titles, publication tabs, contact email, and PI links. It also surfaced two URL-less conference labels, so the People renderer was updated to show missing-URL labels as text badges.
 - The main NAS working tree could not run `npm run build` directly because `astro` was missing from `node_modules`; `npm install` and `npm ci` were attempted but hung on the NAS copy and were stopped. The preview copy has a working dependency install.
+- Placeholder-profile verification: `jq empty src/data/people.json` passed; `/tmp/imlab-yoshinas-preview` build passed after syncing `src/data/people.json` and `src/pages/people.astro`; rendered People HTML includes Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
 - Email replies sent:
   - 賴慎徽: Gmail message id `19ec9ba4daa10bf7`
   - 陳易唯: Gmail message id `19ec9ba4f98a85dc`

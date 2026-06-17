@@ -74,9 +74,11 @@ const alumniGroups = Object.entries(
             <h3>{person.name}</h3>
             <p><strong>{person.role}</strong> · {person.group}</p>
             <p>{person.bio}</p>
-            <div class="tags">
-              {person.interests.map((interest) => <span class="tag">{interest}</span>)}
-            </div>
+            {person.interests.length > 0 && (
+              <div class="tags">
+                {person.interests.map((interest) => <span class="tag">{interest}</span>)}
+              </div>
+            )}
             {person.links.length > 0 && (
               <div class="link-list">
                 {person.links.map((link) => (
