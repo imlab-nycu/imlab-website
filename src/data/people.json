@@ -134,9 +134,20 @@
     "role": "Master's Student",
     "group": "M14",
     "image": "",
-    "bio": "Master's student at IMLAB.",
-    "interests": [],
-    "links": []
+    "bio": "Master's student in the Design and Manufacturing Division. His research interests focus on robot vision and intelligent automation. He has worked on visual positioning systems that guide robotic arms for insertion and pick-and-place tasks, with experience in robotic arm operation, image recognition, coordinate transformation, and system integration.",
+    "interests": [
+      "Robotic arm control",
+      "Human-robot collaboration",
+      "Intelligent automation",
+      "Robot vision",
+      "System integration"
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:leekt119@gmail.com"
+      }
+    ]
   },
   {
     "name": "Wang Shihan",
