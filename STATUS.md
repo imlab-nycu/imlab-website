@@ -5,8 +5,8 @@
 - Important links:
   - Repository: `https://github.com/imlab-nycu/imlab-website.git`
   - Published site: `https://imlab-nycu.github.io/imlab-website/`
-  - Current unpublished preview: `http://localhost:4324/imlab-website`
-  - Network preview: `http://192.168.50.254:4324/imlab-website`
+  - People page: `https://imlab-nycu.github.io/imlab-website/people/`
+  - No persistent local preview is currently running.
 
 # Current Status
 
@@ -49,10 +49,14 @@
   - Render URL-less profile labels as plain text badges instead of broken anchors.
   - Added placeholder Current Team profiles for Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan while waiting for member-provided details.
   - Changed the People page template to skip empty interest/tag rows for sparse placeholder profiles.
+  - Built and published the placeholder-profile version to GitHub Pages.
+  - Verified the live public People page contains Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
+  - Replaced Lee Kuan-Ting's placeholder profile with his provided Design and Manufacturing Division bio, research interests, and email link.
+  - Published the Lee Kuan-Ting profile update to GitHub Pages and verified it on the public People page.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `85a6018` (`Add ORCA AUV news item`).
-  - Latest deployment commit pushed to `gh-pages`: `f770ee2` (`Deploy ORCA AUV news item`).
+  - Latest website source/content commit pushed to `main`: `5ac5ebe` (`Update Lee Kuan-Ting profile`).
+  - Latest deployment commit pushed to `gh-pages`: `28b33ef` (`Deploy Lee Kuan-Ting profile update`).
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
@@ -70,10 +74,9 @@
 
 # Pending Decisions
 
-- Replace placeholder profiles when Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan reply with profile information and photos.
+- Replace placeholder profiles when Tang Shiqi, Luo Yuwen, Wang Shihan, Lan Yilun, and Huang Shixuan reply with profile information and photos.
 - Wait for 陳易唯's representative photo.
 - Wait for 朱婕寧's representative photo.
-- Review post-publication pages after the final publish-fix deployment propagates.
 - Decide whether `visibility_audit_2026-06-13.md` should be committed, revised, or removed.
 - Dylan confirmed that Delany/Delaney on Telegram is authorized to request publishing IMLAB website/webpage updates. Scope is website/webpage publishing only, not email or private student-related actions.
 
@@ -81,10 +84,15 @@
 
 - Before starting work, read this file and `TODO.md`.
 - Use `/home/tsai/YoshiNAS/Websites/imlab-website` as the working folder.
-- If dependencies are missing or broken, run `npm install`; the NAS copy previously had an incomplete `node_modules`.
-- Build with `npm run build`.
-- Preview with `npm run dev -- --port <free-port>` or `npm run preview -- --port <free-port>`.
-- The active temporary preview at the time this file was written is served from `/tmp/imlab-yoshinas-preview` on port `4324`; refresh that temp copy if source files change.
+- Do not rely on `node_modules` inside the YoshiNAS copy. On 2026-06-18, `npm install` in `/home/tsai/YoshiNAS/Websites/imlab-website` failed because the NAS mount does not support npm's `.bin` symlinks (`ENOTSUP: operation not supported ... symlink`) and also surfaced an `esbuild` postinstall failure.
+- For reliable preview/build, create a local temporary copy outside YoshiNAS, for example:
+  - `rsync -a --exclude node_modules --exclude .git /home/tsai/YoshiNAS/Websites/imlab-website/ /tmp/imlab-website-preview/`
+  - `cd /tmp/imlab-website-preview && npm install --no-progress`
+  - `npm run build`
+  - `./node_modules/.bin/astro dev --host=0.0.0.0`
+- The Tailscale preview URL format is `http://100.89.64.48:4321/imlab-website` when Astro is bound to `0.0.0.0`.
+- Publish by building in the local temporary copy, cloning/checking out `gh-pages`, copying `dist/` into that branch while preserving `.nojekyll`, committing, and pushing `gh-pages`.
+- The local preview used for the 2026-06-18 placeholder publish was `/tmp/imlab-website-preview-1781779805`; it has been stopped and should be treated as disposable.
 - The preview copy was refreshed after the compact alumni/thesis update, and `astro build` passed there.
 - The preview copy was refreshed after the `胡哲豪 Michael` alumni correction, and `astro build` passed there.
 - The sent email record is saved at `/home/tsai/YoshiNAS/Knowledge/EmailDrafts/2026-06-15_lab_website_member_info_request_sent_current_members.md`.
@@ -108,6 +116,9 @@
 - Public verification after the first deployment showed the new People tabs, proposal titles, publication tabs, contact email, and PI links. It also surfaced two URL-less conference labels, so the People renderer was updated to show missing-URL labels as text badges.
 - The main NAS working tree could not run `npm run build` directly because `astro` was missing from `node_modules`; `npm install` and `npm ci` were attempted but hung on the NAS copy and were stopped. The preview copy has a working dependency install.
 - Placeholder-profile verification: `jq empty src/data/people.json` passed; `/tmp/imlab-yoshinas-preview` build passed after syncing `src/data/people.json` and `src/pages/people.astro`; rendered People HTML includes Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
+- Placeholder-profile public deployment verification: built from `/tmp/imlab-website-preview-1781779805`; pushed deploy commit `2786642` to `gh-pages`; live `https://imlab-nycu.github.io/imlab-website/people/` showed all six placeholder names after propagation.
+- Model-context note: after trying Gemini API, Dylan switched OpenClaw back to OpenAI API because website memory/context was unreliable across the model switch. Future agents should read this `STATUS.md` before website work and should not assume a model has retained prior website context.
+- Lee Kuan-Ting profile update verification: `jq empty src/data/people.json` passed; `/tmp/imlab-website-preview-1781779805` build passed; rendered and public People HTML include Lee Kuan-Ting's robot vision/intelligent automation bio, keywords, and `leekt119@gmail.com` link.
 - Email replies sent:
   - 賴慎徽: Gmail message id `19ec9ba4daa10bf7`
   - 陳易唯: Gmail message id `19ec9ba4f98a85dc`

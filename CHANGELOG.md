@@ -94,3 +94,47 @@
 ### Removed
 
 - Nothing.
+
+## 2026-06-18
+
+### Added
+
+- Added handover notes for the approved placeholder-profile deployment and the OpenAI/Gemini model-context issue.
+- Added the reliable local-temp preview/build workflow for environments where YoshiNAS npm installs fail.
+
+### Changed
+
+- Updated `STATUS.md` with the latest source commit `8544048` and deploy commit `2786642`.
+- Replaced stale local preview URLs with the current public People page and a note that no persistent local preview is running.
+
+### Fixed
+
+- Published the placeholder-profile version to `gh-pages`.
+- Verified the live public People page shows Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
+- Documented that direct npm installs in the YoshiNAS checkout can fail because the mount does not support npm `.bin` symlinks and can trigger Astro/esbuild install failures.
+
+### Removed
+
+- Removed the completed pending task to review post-publication pages after deployment propagation.
+
+## 2026-06-21
+
+### Added
+
+- Added Lee Kuan-Ting's provided profile details, including Design and Manufacturing Division affiliation, robot vision and intelligent automation bio, research interests, and email link.
+
+### Changed
+
+- Replaced Lee Kuan-Ting's sparse placeholder Current Team profile.
+- Removed Lee Kuan-Ting from the placeholder-profile follow-up list.
+
+### Fixed
+
+- Verified `src/data/people.json` with `jq`.
+- Verified the People page build in `/tmp/imlab-website-preview-1781779805`.
+- Published the Lee Kuan-Ting profile update to `main` and `gh-pages`.
+- Verified the live public People page renders Lee Kuan-Ting's updated profile.
+
+### Removed
+
+- Nothing.
