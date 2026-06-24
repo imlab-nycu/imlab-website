@@ -1,6 +1,6 @@
 [
   {
-    "name": "Chia-Hung Dylan Tsai",
+    "name": "蔡佳宏 Chia-Hung Dylan Tsai",
     "role": "Principal Investigator",
     "group": "Faculty",
     "image": "/images/dylan-tsai.jpg",
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "name": "Tang Shiqi",
+    "name": "Shiqi Tang",
     "role": "Master's Student",
     "group": "M13",
     "image": "",
@@ -121,7 +121,7 @@
     "links": []
   },
   {
-    "name": "Luo Yuwen",
+    "name": "Yuwen Luo",
     "role": "Master's Student",
     "group": "M13",
     "image": "",
@@ -130,10 +130,10 @@
     "links": []
   },
   {
-    "name": "Lee Kuan-Ting",
+    "name": "Kuan-Ting Lee",
     "role": "Master's Student",
     "group": "M14",
-    "image": "",
+    "image": "/images/lee-kuan-ting.jpg",
     "bio": "Master's student in the Design and Manufacturing Division. His research interests focus on robot vision and intelligent automation. He has worked on visual positioning systems that guide robotic arms for insertion and pick-and-place tasks, with experience in robotic arm operation, image recognition, coordinate transformation, and system integration.",
     "interests": [
       "Robotic arm control",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "name": "Wang Shihan",
+    "name": "Shihan Wang",
     "role": "Master's Student",
     "group": "M14",
     "image": "",
@@ -159,7 +159,7 @@
     "links": []
   },
   {
-    "name": "Lan Yilun",
+    "name": "Yi-Lun Lan",
     "role": "Master's Student",
     "group": "M14",
     "image": "",
@@ -168,7 +168,7 @@
     "links": []
   },
   {
-    "name": "Huang Shixuan",
+    "name": "Shixuan Huang",
     "role": "Master's Student",
     "group": "M14",
     "image": "",

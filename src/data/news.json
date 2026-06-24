@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-06-24",
+    "title": "Yi-Lun Lan presents oral paper at APCOT 2026",
+    "summary": "Yi-Lun Lan presented the oral paper \"Automated Adaptive Feature Extraction for Microfluidic Droplet Voiceprint Monitoring via Heuristic Optimization\" at APCOT 2026 & ICSS 2026 in Taichung, Taiwan.",
+    "image": "/images/news/apcot-2026-yi-lun-lan-oral-presentation.jpg",
+    "imageAlt": "Yi-Lun Lan presenting an oral paper at APCOT 2026 & ICSS 2026"
+  },
+  {
     "date": "2026-06-11",
     "title": "New IMLAB website draft started",
     "summary": "A maintainable GitHub Pages-ready website structure was created with editable data files."

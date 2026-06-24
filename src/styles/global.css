@@ -570,6 +570,23 @@ img {
   font-weight: 800;
 }
 
+.news-content {
+  display: grid;
+  gap: 14px;
+}
+
+.news-content.has-image {
+  grid-template-columns: 180px minmax(0, 1fr);
+}
+
+.news-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 .pub-item h3,
 .news-item h3 {
   margin: 0 0 6px;
@@ -1000,6 +1017,10 @@ img {
   .news-item,
   .pub-item,
   .person {
+    grid-template-columns: 1fr;
+  }
+
+  .news-content.has-image {
     grid-template-columns: 1fr;
   }
 }

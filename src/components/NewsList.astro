@@ -1,20 +1,28 @@
 ---
 import news from '../data/news.json';
+
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
 ---
 
 <div class="news-list">
   {news.map((item) => (
     <article class="news-item">
       <div class="date">{item.date}</div>
-      <div>
-        <h3>
-          {item.url ? (
-            <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a>
-          ) : (
-            item.title
-          )}
-        </h3>
-        <p>{item.summary}</p>
+      <div class={`news-content ${item.image ? 'has-image' : ''}`}>
+        {item.image && (
+          <img class="news-image" src={withBase(item.image)} alt={item.imageAlt || item.title} />
+        )}
+        <div>
+          <h3>
+            {item.url ? (
+              <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a>
+            ) : (
+              item.title
+            )}
+          </h3>
+          <p>{item.summary}</p>
+        </div>
       </div>
     </article>
   ))}
