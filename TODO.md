@@ -2,7 +2,7 @@
 
 - [ ] Add 陳易唯's representative photo when he provides it.
 - [ ] Add 朱婕寧's representative photo when she provides it.
-- [ ] Replace placeholder profiles for Tang Shiqi, Luo Yuwen, Wang Shihan, Lan Yilun, and Huang Shixuan when they provide profile information and photos.
+- [ ] Replace placeholder profiles for Shiqi Tang, Yuwen Luo, Shihan Wang, Yi-Lun Lan, and Shixuan Huang when they provide profile information and photos.
 - [ ] Decide whether to keep, revise, or remove `visibility_audit_2026-06-13.md`.
 
 ## Recently Published

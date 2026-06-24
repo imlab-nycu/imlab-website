@@ -1,3 +1,29 @@
+## 2026-06-24
+
+### Added
+
+- Added Lee Kuan-Ting's member photo at `public/images/lee-kuan-ting.jpg`.
+- Added an APCOT 2026 news item for Yi-Lun Lan's oral paper presentation.
+- Added the APCOT 2026 presentation photo at `public/images/news/apcot-2026-yi-lun-lan-oral-presentation.jpg`.
+- Added optional thumbnail rendering for news items.
+
+### Changed
+
+- Updated the PI display name to `蔡佳宏 Chia-Hung Dylan Tsai`.
+- Changed current-member English names to first-name-last-name order: Kuan-Ting Lee, Shiqi Tang, Yuwen Luo, Shihan Wang, Yi-Lun Lan, and Shixuan Huang.
+- Added responsive styling for news thumbnails.
+
+### Fixed
+
+- Verified `src/data/people.json` and `src/data/news.json` with `jq`.
+- Verified the static build in `/tmp/imlab-website-local-preview`.
+- Published the source update to `main` and deployed the static site to `gh-pages`.
+- Verified the live People page, homepage news item, and APCOT 2026 news image on GitHub Pages.
+
+### Removed
+
+- Nothing.
+
 ## 2026-06-15
 
 ### Added

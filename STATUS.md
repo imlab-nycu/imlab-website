@@ -53,11 +53,18 @@
   - Verified the live public People page contains Tang Shiqi, Luo Yuwen, Lee Kuan-Ting, Wang Shihan, Lan Yilun, and Huang Shixuan.
   - Replaced Lee Kuan-Ting's placeholder profile with his provided Design and Manufacturing Division bio, research interests, and email link.
   - Published the Lee Kuan-Ting profile update to GitHub Pages and verified it on the public People page.
+  - Added Lee Kuan-Ting's provided photo and updated his English display name to Kuan-Ting Lee.
+  - Updated current-member English display names to first-name-last-name order: Shiqi Tang, Yuwen Luo, Kuan-Ting Lee, Shihan Wang, Yi-Lun Lan, and Shixuan Huang.
+  - Updated the PI display name to `蔡佳宏 Chia-Hung Dylan Tsai`.
+  - Added an APCOT 2026 news item and presentation photo for Yi-Lun Lan's oral paper presentation.
+  - Added optional thumbnail rendering for news items.
+  - Published the People name/photo and APCOT 2026 news update to GitHub Pages and verified the live People page, homepage, and news image.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `5ac5ebe` (`Update Lee Kuan-Ting profile`).
-  - Latest deployment commit pushed to `gh-pages`: `28b33ef` (`Deploy Lee Kuan-Ting profile update`).
+  - Latest website source/content commit pushed to `main`: `3642b84` (`Update people names and APCOT news`).
+  - Latest deployment commit pushed to `gh-pages`: `5fa23f8` (`Deploy people names and APCOT news`).
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
+  - Public homepage/news page: `https://imlab-nycu.github.io/imlab-website/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
 # Important Files
@@ -74,7 +81,7 @@
 
 # Pending Decisions
 
-- Replace placeholder profiles when Tang Shiqi, Luo Yuwen, Wang Shihan, Lan Yilun, and Huang Shixuan reply with profile information and photos.
+- Replace placeholder profiles when Shiqi Tang, Yuwen Luo, Shihan Wang, Yi-Lun Lan, and Shixuan Huang reply with profile information and photos.
 - Wait for 陳易唯's representative photo.
 - Wait for 朱婕寧's representative photo.
 - Decide whether `visibility_audit_2026-06-13.md` should be committed, revised, or removed.
