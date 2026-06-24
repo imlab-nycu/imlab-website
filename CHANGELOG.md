@@ -6,6 +6,9 @@
 - Added an APCOT 2026 news item for Yi-Lun Lan's oral paper presentation.
 - Added the APCOT 2026 presentation photo at `public/images/news/apcot-2026-yi-lun-lan-oral-presentation.jpg`.
 - Added optional thumbnail rendering for news items.
+- Registered GoatCounter analytics site `imlab-nycu` using `yoshi.imlab@gmail.com`.
+- Added GoatCounter analytics configuration to `src/data/site.json`.
+- Added the GoatCounter tracking script to `src/layouts/BaseLayout.astro`.
 
 ### Changed
 
@@ -19,6 +22,7 @@
 - Verified the static build in `/tmp/imlab-website-local-preview`.
 - Published the source update to `main` and deployed the static site to `gh-pages`.
 - Verified the live People page, homepage news item, and APCOT 2026 news image on GitHub Pages.
+- Verified the live homepage and People page include the GoatCounter tracking script.
 
 ### Removed
 

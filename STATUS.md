@@ -59,22 +59,27 @@
   - Added an APCOT 2026 news item and presentation photo for Yi-Lun Lan's oral paper presentation.
   - Added optional thumbnail rendering for news items.
   - Published the People name/photo and APCOT 2026 news update to GitHub Pages and verified the live People page, homepage, and news image.
+  - Registered GoatCounter analytics site `imlab-nycu` with `yoshi.imlab@gmail.com`.
+  - Added GoatCounter analytics configuration to `src/data/site.json` and the shared tracking script to `src/layouts/BaseLayout.astro`.
+  - Published the GoatCounter analytics update to GitHub Pages and verified the live homepage and People page include the tracking script.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `3642b84` (`Update people names and APCOT news`).
-  - Latest deployment commit pushed to `gh-pages`: `5fa23f8` (`Deploy people names and APCOT news`).
+  - Latest website source/content commit pushed to `main`: `56ab169` (`Add GoatCounter analytics`).
+  - Latest deployment commit pushed to `gh-pages`: `4a488e7` (`Deploy GoatCounter analytics`).
   - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
   - Public homepage/news page: `https://imlab-nycu.github.io/imlab-website/`
+  - GoatCounter dashboard: `https://imlab-nycu.goatcounter.com/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
 # Important Files
 
 - `src/data/people.json`: PI, current team, and alumni data.
 - `src/pages/people.astro`: People page rendering and visibility behavior.
-- `src/data/site.json`: Lab identity, contact links, and navigation.
+- `src/data/site.json`: Lab identity, contact links, navigation, and GoatCounter analytics endpoint configuration.
 - `src/data/projects.json`: Research themes and projects.
 - `src/data/publications.json`: Selected publications.
 - `src/data/news.json`: News and updates.
+- `src/layouts/BaseLayout.astro`: Shared page layout and GoatCounter tracking script rendering.
 - `astro.config.mjs`: GitHub Pages `site` and `base` configuration.
 - `public/images/`: Website image assets.
 - `dist/`: Generated static output after `npm run build`.
@@ -126,6 +131,8 @@
 - Placeholder-profile public deployment verification: built from `/tmp/imlab-website-preview-1781779805`; pushed deploy commit `2786642` to `gh-pages`; live `https://imlab-nycu.github.io/imlab-website/people/` showed all six placeholder names after propagation.
 - Model-context note: after trying Gemini API, Dylan switched OpenClaw back to OpenAI API because website memory/context was unreliable across the model switch. Future agents should read this `STATUS.md` before website work and should not assume a model has retained prior website context.
 - Lee Kuan-Ting profile update verification: `jq empty src/data/people.json` passed; `/tmp/imlab-website-preview-1781779805` build passed; rendered and public People HTML include Lee Kuan-Ting's robot vision/intelligent automation bio, keywords, and `leekt119@gmail.com` link.
+- GoatCounter account details: site code `imlab-nycu`, dashboard `https://imlab-nycu.goatcounter.com/`, email `yoshi.imlab@gmail.com`. The generated password is stored outside the repo at `/home/tsai/.openclaw/workspace/secrets/goatcounter-imlab-nycu.env` with `600` permissions.
+- GoatCounter verification: `jq empty src/data/site.json` passed; `/tmp/imlab-website-local-preview` build passed; rendered and public homepage/People HTML include `data-goatcounter="https://imlab-nycu.goatcounter.com/count"` and `https://gc.zgo.at/count.js`.
 - Email replies sent:
   - 賴慎徽: Gmail message id `19ec9ba4daa10bf7`
   - 陳易唯: Gmail message id `19ec9ba4f98a85dc`
