@@ -46,6 +46,9 @@
       "href": "/contact/"
     }
   ],
+  "analytics": {
+    "goatCounter": "https://imlab-nycu.goatcounter.com/count"
+  },
   "sources": [
     {
       "label": "Dylan Tsai research profile",

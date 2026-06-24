@@ -6,6 +6,7 @@ const { title = site.labName, description = site.tagline } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const pathname = Astro.url.pathname.replace(base, '/');
 const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : path;
+const goatCounterUrl = site.analytics?.goatCounter;
 ---
 
 <!doctype html>
@@ -49,5 +50,8 @@ const withBase = (path) => path.startsWith('/') ? `${base}${path.slice(1)}` : pa
         </div>
       </footer>
     </div>
+    {goatCounterUrl && (
+      <script data-goatcounter={goatCounterUrl} async src="https://gc.zgo.at/count.js"></script>
+    )}
   </body>
 </html>
