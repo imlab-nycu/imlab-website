@@ -1,3 +1,15 @@
+## 2026-06-25
+
+### Added
+
+- Added the APSPT-14 conference publication `Mesh-Assisted Plasma Microbubble for Enhancing RONS Concentration`.
+- Updated 王詩涵 Shih-Han Wang's Current Team profile with Chinese name, plasma/RONS research tags, and APSPT-14 link.
+
+### Fixed
+
+- Verified `src/data/people.json` and `src/data/publications.json` with `jq`.
+- Verified the static Astro build in `/tmp/imlab-website-build-1782352152`.
+
 ## 2026-06-24
 
 ### Added

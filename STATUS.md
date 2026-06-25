@@ -62,6 +62,10 @@
   - Registered GoatCounter analytics site `imlab-nycu` with `yoshi.imlab@gmail.com`.
   - Added GoatCounter analytics configuration to `src/data/site.json` and the shared tracking script to `src/layouts/BaseLayout.astro`.
   - Published the GoatCounter analytics update to GitHub Pages and verified the live homepage and People page include the tracking script.
+  - Added the APSPT-14 conference publication `Mesh-Assisted Plasma Microbubble for Enhancing RONS Concentration`.
+  - Updated 王詩涵 Shih-Han Wang's profile with Chinese name, plasma/RONS research tags, and APSPT-14 link.
+  - Verified `src/data/people.json` and `src/data/publications.json` with `jq`.
+  - Verified the static Astro build in `/tmp/imlab-website-build-1782352152`.
 - Current version or deployment state:
   - Repository branch: `main`
   - Latest website source/content commit pushed to `main`: `56ab169` (`Add GoatCounter analytics`).

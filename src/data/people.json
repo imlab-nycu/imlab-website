@@ -150,13 +150,22 @@
     ]
   },
   {
-    "name": "Shihan Wang",
+    "name": "王詩涵 Shih-Han Wang",
     "role": "Master's Student",
     "group": "M14",
     "image": "",
-    "bio": "Master's student at IMLAB.",
-    "interests": [],
-    "links": []
+    "bio": "Master's student at IMLAB. Her conference presentation work includes mesh-assisted plasma microbubbles for enhancing RONS concentration.",
+    "interests": [
+      "Plasma microbubbles",
+      "RONS",
+      "Plasma technology"
+    ],
+    "links": [
+      {
+        "label": "APSPT-14",
+        "url": "https://apspt-14.tw/site/page.aspx?pid=901&sid=1636&lang=en"
+      }
+    ]
   },
   {
     "name": "Yi-Lun Lan",
