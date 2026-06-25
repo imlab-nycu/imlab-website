@@ -112,13 +112,18 @@
     ]
   },
   {
-    "name": "Shiqi Tang",
+    "name": "唐識期 Shih-Chi Tang",
     "role": "Master's Student",
     "group": "M13",
     "image": "",
     "bio": "Master's student at IMLAB.",
     "interests": [],
-    "links": []
+    "links": [
+      {
+        "label": "ICFD2025",
+        "url": "https://www.ifs.tohoku.ac.jp/icfd/2025/"
+      }
+    ]
   },
   {
     "name": "Yuwen Luo",
