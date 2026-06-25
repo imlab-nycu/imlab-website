@@ -168,13 +168,22 @@
     ]
   },
   {
-    "name": "Yi-Lun Lan",
+    "name": "籃翊綸 Yi-Lun Lan",
     "role": "Master's Student",
     "group": "M14",
     "image": "",
-    "bio": "Master's student at IMLAB.",
-    "interests": [],
-    "links": []
+    "bio": "Master's student at IMLAB. His conference presentation work includes adaptive feature extraction for microfluidic droplet voiceprint monitoring.",
+    "interests": [
+      "Microfluidic droplets",
+      "Voiceprint monitoring",
+      "Heuristic optimization"
+    ],
+    "links": [
+      {
+        "label": "APCOT 2026",
+        "url": "https://imlab-nycu.github.io/imlab-website/apcot2026/abstracts/"
+      }
+    ]
   },
   {
     "name": "Shixuan Huang",

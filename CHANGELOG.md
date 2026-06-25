@@ -4,6 +4,8 @@
 
 - Added the APSPT-14 conference publication `Mesh-Assisted Plasma Microbubble for Enhancing RONS Concentration`.
 - Updated 王詩涵 Shih-Han Wang's Current Team profile with Chinese name, plasma/RONS research tags, and APSPT-14 link.
+- Added the APCOT 2026 conference publication `Automated Adaptive Feature Extraction for Microfluidic Droplet Voiceprint Monitoring via Heuristic Optimization`.
+- Updated 籃翊綸 Yi-Lun Lan's Current Team profile with Chinese name, voiceprint-monitoring research tags, and APCOT 2026 link.
 
 ### Fixed
 
@@ -18,6 +20,7 @@
 - Added an APCOT 2026 news item for Yi-Lun Lan's oral paper presentation.
 - Added the APCOT 2026 presentation photo at `public/images/news/apcot-2026-yi-lun-lan-oral-presentation.jpg`.
 - Added optional thumbnail rendering for news items.
+- Updated the APCOT 2026 news item to use 籃翊綸 Yi-Lun Lan's Chinese and English display name.
 - Registered GoatCounter analytics site `imlab-nycu` using `yoshi.imlab@gmail.com`.
 - Added GoatCounter analytics configuration to `src/data/site.json`.
 - Added the GoatCounter tracking script to `src/layouts/BaseLayout.astro`.

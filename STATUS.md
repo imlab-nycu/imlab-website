@@ -66,6 +66,8 @@
   - Updated 王詩涵 Shih-Han Wang's profile with Chinese name, plasma/RONS research tags, and APSPT-14 link.
   - Verified `src/data/people.json` and `src/data/publications.json` with `jq`.
   - Verified the static Astro build in `/tmp/imlab-website-build-1782352152`.
+  - Added the APCOT 2026 conference publication `Automated Adaptive Feature Extraction for Microfluidic Droplet Voiceprint Monitoring via Heuristic Optimization`.
+  - Updated 籃翊綸 Yi-Lun Lan's profile and APCOT 2026 news item with his Chinese and English display name.
 - Current version or deployment state:
   - Repository branch: `main`
   - Latest website source/content commit pushed to `main`: `56ab169` (`Add GoatCounter analytics`).
