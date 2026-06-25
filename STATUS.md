@@ -69,6 +69,7 @@
   - Added the APCOT 2026 conference publication `Automated Adaptive Feature Extraction for Microfluidic Droplet Voiceprint Monitoring via Heuristic Optimization`.
   - Updated 籃翊綸 Yi-Lun Lan's profile and APCOT 2026 news item with his Chinese and English display name.
   - Replaced the homepage research-output helper text with public-facing copy and updated the output count to 134.
+  - Replaced internal maintenance copy on the Research page with visitor-facing research and facilities text.
 - Current version or deployment state:
   - Repository branch: `main`
   - Latest website source/content commit pushed to `main`: `56ab169` (`Add GoatCounter analytics`).

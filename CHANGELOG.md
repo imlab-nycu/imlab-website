@@ -12,6 +12,7 @@
 - Verified `src/data/people.json` and `src/data/publications.json` with `jq`.
 - Verified the static Astro build in `/tmp/imlab-website-build-1782352152`.
 - Replaced the homepage research-output helper text with public-facing copy and updated the output count to 134.
+- Replaced internal maintenance copy on the Research page with visitor-facing research and facilities text.
 
 ## 2026-06-24
 
