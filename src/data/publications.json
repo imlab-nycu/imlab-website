@@ -415,6 +415,15 @@
     "items": [
       {
         "year": "2026",
+        "title": "Improving Localization Accuracy via Visual-Tactile Fusion Using Particle Filtering",
+        "authors": "Yu-Wen Luo and Chia-Hung Dylan Tsai*",
+        "venue": "International Conference on Advanced Robotics and Intelligent Systems (ARIS 2026), (Tainan, Taiwan, 2026.08.24-26).",
+        "url": "https://aris2026.ncku.edu.tw/",
+        "doi": "",
+        "source": "User-provided update, 2026-06-26"
+      },
+      {
+        "year": "2026",
         "title": "Automated Adaptive Feature Extraction for Microfluidic Droplet Voiceprint Monitoring via Heuristic Optimization",
         "authors": "Yi-Lun Lan and Chia-Hung Dylan Tsai*",
         "venue": "APCOT 2026 & ICSS 2026, OR3-1D Physical Sensors and MEMS/NEMS 3, oral presentation, (Taichung, Taiwan, 2026.06.24).",

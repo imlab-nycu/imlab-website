@@ -116,8 +116,12 @@
     "role": "Master's Student",
     "group": "M13",
     "image": "",
-    "bio": "Master's student at IMLAB.",
-    "interests": [],
+    "bio": "Master's student at IMLAB developing distance-programmable coaxial capillary devices for versatile microfluidic applications.",
+    "interests": [
+      "Microfluidics",
+      "Coaxial capillary devices",
+      "Droplet generation"
+    ],
     "links": [
       {
         "label": "ICFD2025",
@@ -126,13 +130,23 @@
     ]
   },
   {
-    "name": "Yuwen Luo",
+    "name": "羅宇妏 Yu-Wen Luo",
     "role": "Master's Student",
     "group": "M13",
     "image": "",
-    "bio": "Master's student at IMLAB.",
-    "interests": [],
-    "links": []
+    "bio": "Master's student at IMLAB working on visual-tactile fusion for robotic localization, including particle-filtering methods for improving localization accuracy.",
+    "interests": [
+      "Robot localization",
+      "Visual-tactile fusion",
+      "Particle filtering",
+      "Robotics"
+    ],
+    "links": [
+      {
+        "label": "ARIS2026",
+        "url": "https://aris2026.ncku.edu.tw/"
+      }
+    ]
   },
   {
     "name": "Kuan-Ting Lee",
