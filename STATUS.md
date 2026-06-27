@@ -4,8 +4,10 @@
 - Main repository or location: `/home/tsai/YoshiNAS/Websites/imlab-website`
 - Important links:
   - Repository: `https://github.com/imlab-nycu/imlab-website.git`
-  - Published site: `https://imlab-nycu.github.io/imlab-website/`
-  - People page: `https://imlab-nycu.github.io/imlab-website/people/`
+  - Published site: `https://imlab-nycu.github.io/`
+  - People page: `https://imlab-nycu.github.io/people/`
+  - Root Pages repository: `https://github.com/imlab-nycu/imlab-nycu.github.io.git`
+  - Old project Pages path: `https://imlab-nycu.github.io/imlab-website/` redirects to the root site.
   - No persistent local preview is currently running.
 
 # Current Status
@@ -70,12 +72,17 @@
   - Updated 籃翊綸 Yi-Lun Lan's profile and APCOT 2026 news item with his Chinese and English display name.
   - Replaced the homepage research-output helper text with public-facing copy and updated the output count to 134.
   - Replaced internal maintenance copy on the Research page with visitor-facing research and facilities text.
+  - Moved the public canonical site from the project Pages path `https://imlab-nycu.github.io/imlab-website/` to the root URL `https://imlab-nycu.github.io/`.
+  - Published the generated static site to the root Pages repository `imlab-nycu/imlab-nycu.github.io`.
+  - Replaced the old `imlab-website` `gh-pages` deployment with redirect pages pointing to the root URL.
+  - Set Astro to `base: '/'` and `build.assets: 'assets'` so root GitHub Pages serves generated CSS without relying on `_astro`.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `56ab169` (`Add GoatCounter analytics`).
-  - Latest deployment commit pushed to `gh-pages`: `4a488e7` (`Deploy GoatCounter analytics`).
-  - Public People page: `https://imlab-nycu.github.io/imlab-website/people/`
-  - Public homepage/news page: `https://imlab-nycu.github.io/imlab-website/`
+  - Latest website source/content commit pushed to `main`: `c69ece1` (`Use Pages-safe asset directory`).
+  - Latest root-site deployment commit pushed to `imlab-nycu.github.io` `main`: `a827d84` (`Use Pages-safe asset directory`).
+  - Latest old project-site redirect commit pushed to `imlab-website` `gh-pages`: `273e6d0` (`Redirect project site to root URL`).
+  - Public People page: `https://imlab-nycu.github.io/people/`
+  - Public homepage/news page: `https://imlab-nycu.github.io/`
   - GoatCounter dashboard: `https://imlab-nycu.goatcounter.com/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
@@ -111,7 +118,9 @@
   - `npm run build`
   - `./node_modules/.bin/astro dev --host=0.0.0.0`
 - The Tailscale preview URL format is `http://100.89.64.48:4321/imlab-website` when Astro is bound to `0.0.0.0`.
-- Publish by building in the local temporary copy, cloning/checking out `gh-pages`, copying `dist/` into that branch while preserving `.nojekyll`, committing, and pushing `gh-pages`.
+- Publish the canonical site by building in the local temporary copy, cloning `https://github.com/imlab-nycu/imlab-nycu.github.io.git`, copying `dist/` into that repo while preserving `.github/` and `README.md`, committing, and pushing `main`.
+- Keep `astro.config.mjs` at `site: 'https://imlab-nycu.github.io'`, `base: '/'`, and `build.assets: 'assets'`. The `assets` directory avoids GitHub Pages/Jekyll underscore handling problems with Astro's default `_astro` directory.
+- The old project Pages branch `imlab-website:gh-pages` should remain a redirect-only deployment for `/imlab-website/`; do not republish the full site there unless Dylan intentionally moves the canonical URL back.
 - The local preview used for the 2026-06-18 placeholder publish was `/tmp/imlab-website-preview-1781779805`; it has been stopped and should be treated as disposable.
 - The preview copy was refreshed after the compact alumni/thesis update, and `astro build` passed there.
 - The preview copy was refreshed after the `胡哲豪 Michael` alumni correction, and `astro build` passed there.

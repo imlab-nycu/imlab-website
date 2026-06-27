@@ -1,3 +1,17 @@
+## 2026-06-27
+
+### Changed
+
+- Changed the canonical public website URL from `https://imlab-nycu.github.io/imlab-website/` to `https://imlab-nycu.github.io/`.
+- Updated Astro config to use `base: '/'` and `build.assets: 'assets'` for root GitHub Pages deployment.
+- Updated APCOT 2026 internal links in people/publication data to use the root URL.
+
+### Fixed
+
+- Published the generated static site to the root Pages repository `imlab-nycu/imlab-nycu.github.io`.
+- Verified the live root homepage, People page, and CSS asset under `/assets/`.
+- Replaced the old project Pages deployment with redirect pages so `/imlab-website/` points to the root site instead of serving duplicate content.
+
 ## 2026-06-25
 
 ### Added
