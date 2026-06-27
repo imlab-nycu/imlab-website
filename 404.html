@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content="0; url=https://imlab-nycu.github.io/" />
     <link rel="canonical" href="https://imlab-nycu.github.io/" />
     <title>Intelligent Microsystem Lab</title>
     <script>
-      location.replace('https://imlab-nycu.github.io/');
+      const oldBase = '/imlab-website';
+      const path = location.pathname.startsWith(oldBase)
+        ? location.pathname.slice(oldBase.length)
+        : '/';
+      const target = new URL(path || '/', 'https://imlab-nycu.github.io');
+      target.search = location.search;
+      target.hash = location.hash;
+      location.replace(target.href);
     </script>
   </head>
   <body>
