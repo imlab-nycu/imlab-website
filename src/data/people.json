@@ -899,5 +899,21 @@
     ],
     "cohort": "M12",
     "thesis": "硝酸銀與乙醇濃度對奈秒雷射沉積銀線特性之影響"
+  },
+  {
+    "name": "徐靖翔 Ching-Hsiang Hsu",
+    "role": "Former Master's Student",
+    "group": "Alumni",
+    "image": "",
+    "bio": "Former master's student in the Precision and Automation Program. Thesis: 自適應弧面濾除應用於無編碼料箱姿態定位.",
+    "interests": [
+      "專班精密與自動化組",
+      "Adaptive surface filtering",
+      "Bin pose localization",
+      "Pose estimation"
+    ],
+    "links": [],
+    "cohort": "M12",
+    "thesis": "自適應弧面濾除應用於無編碼料箱姿態定位"
   }
 ]

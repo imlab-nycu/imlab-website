@@ -16,6 +16,10 @@
           "name": "李念謙",
           "cohort": "M10",
           "program": "Degree Program of Applied Science and Technology"
+        },
+        {
+          "name": "徐靖翔 Ching-Hsiang Hsu",
+          "cohort": "M12"
         }
       ]
     },
@@ -66,17 +70,6 @@
             "Low-light object recognition",
             "Computer vision",
             "Detection accuracy"
-          ]
-        },
-        {
-          "name": "徐靖翔",
-          "cohort": "M12",
-          "proposalTitle": "自適應弧面濾除應用於無編碼料箱姿態定位",
-          "keywords": [
-            "Adaptive surface filtering",
-            "Bin pose localization",
-            "Pose estimation",
-            "Uncoded bins"
           ]
         },
         {
