@@ -196,17 +196,21 @@
     ]
   },
   {
-    "name": "籃翊綸 Yi-Lun Lan",
+    "name": "籃翊綸 Yi-Lun (Allen) Lan",
     "role": "Master's Student",
     "group": "M14",
-    "image": "",
-    "bio": "Master's student at IMLAB. His conference presentation work includes adaptive feature extraction for microfluidic droplet voiceprint monitoring.",
+    "image": "/images/lan-yi-lun-allen.jpg",
+    "bio": "Master's student at IMLAB. His research focuses on adaptive feature extraction for microfluidic droplet voiceprint monitoring and Monitoring small/slow droplets using active ultrasonic fingerprints.",
     "interests": [
       "Microfluidic droplets",
       "Voiceprint monitoring",
       "Heuristic optimization"
     ],
     "links": [
+      {
+        "label": "Email",
+        "url": "mailto:allen98013@gmail.com"
+      },
       {
         "label": "APCOT 2026",
         "url": "https://imlab-nycu.github.io/apcot2026/abstracts/"

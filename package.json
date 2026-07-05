@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "astro dev --host 0.0.0.0",
     "build": "astro build",
-    "preview": "astro preview --host 0.0.0.0"
+    "preview": "astro preview --host 0.0.0.0",
+    "deploy-local": "rsync -avh --delete --exclude='.git/' --exclude='.github/' --exclude='README.md' dist/ ../imlab-nycu.github.io/",
+    "publish": "cd ../imlab-nycu.github.io && git add . && git commit -m \"Website update\" && git push"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
