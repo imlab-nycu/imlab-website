@@ -20,6 +20,10 @@
         {
           "name": "徐靖翔 Ching-Hsiang Hsu",
           "cohort": "M12"
+        },
+        {
+          "name": "林家揚 Chia-Yang Lin",
+          "cohort": "M13"
         }
       ]
     },
@@ -70,17 +74,6 @@
             "Low-light object recognition",
             "Computer vision",
             "Detection accuracy"
-          ]
-        },
-        {
-          "name": "林家揚",
-          "cohort": "M13",
-          "proposalTitle": "利用亮度分區與權重遮罩提升關燈工廠環境的物件辨識準確率",
-          "keywords": [
-            "Brightness segmentation",
-            "Weighted masking",
-            "Lights-out factory",
-            "Object recognition"
           ]
         },
         {
