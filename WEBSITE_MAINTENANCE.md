@@ -82,7 +82,7 @@ There are **two Git repositories**.
 ## 1. Source Repository
 
 ```
-~/Tasks/imlab-website
+~/Websites/imlab-website
 ```
 
 GitHub repository:
@@ -106,7 +106,7 @@ This is the only place I should edit.
 ## 2. Published Website
 
 ```
-~/Tasks/imlab-nycu.github.io
+~/Websites/imlab-nycu.github.io
 ```
 
 GitHub repository:
@@ -197,7 +197,7 @@ dist/
 into
 
 ```
-~/Tasks/imlab-nycu.github.io
+~/Websites/imlab-nycu.github.io
 ```
 
 using rsync.
@@ -207,7 +207,7 @@ using rsync.
 ## 5. Publish
 
 ```
-cd ~/Tasks/imlab-nycu.github.io
+cd ~/Websites/imlab-nycu.github.io
 
 git status
 git add .
