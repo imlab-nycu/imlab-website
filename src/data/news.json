@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-08-25",
+    "title": "羅宇妏 Yu-Wen Luo presents at ARIS 2026",
+    "summary": "羅宇妏 Yu-Wen Luo presented \"Improving Localization Accuracy via Visual-Tactile Fusion Using Particle Filtering\" at the International Conference on Advanced Robotics and Intelligent Systems (ARIS 2026) in Tainan, Taiwan.",
+    "url": "https://aris2026.ncku.edu.tw/",
+    "images": [
+      {
+        "src": "/images/news/aris-2026-yu-wen-luo-conference-sign.jpg",
+        "alt": "ARIS 2026 conference sign at National Cheng Kung University"
+      },
+      {
+        "src": "/images/news/aris-2026-yu-wen-luo-presentation.jpg",
+        "alt": "羅宇妏 Yu-Wen Luo presenting at ARIS 2026"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
     "title": "朱婕寧 Chieh-Ning Chu and 賴慎徽 Shen Hui Lai graduate from IMLAB",
     "summary": "Congratulations to 朱婕寧 Chieh-Ning Chu and 賴慎徽 Shen Hui Lai on completing their master's degrees and graduating from IMLAB on August 25, 2026."
   },
