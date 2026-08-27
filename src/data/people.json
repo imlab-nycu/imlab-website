@@ -38,10 +38,10 @@
   },
   {
     "name": "朱婕寧 Chieh-Ning Chu",
-    "role": "Master's Student",
-    "group": "M13",
+    "role": "Former Master's Student",
+    "group": "Alumni",
     "image": "",
-    "bio": "Master's student in the Micro/Nano Division. Her research focuses on on-the-fly switching of droplet generation via vibration in coaxial microfluidic systems.",
+    "bio": "Former master's student in the Micro/Nano Division. Her research focused on on-the-fly switching of droplet generation via vibration in coaxial microfluidic systems.",
     "interests": [
       "Microfluidics",
       "Double emulsion",
@@ -62,14 +62,15 @@
         "label": "MicroTAS2025",
         "url": "https://microtas2025.org/"
       }
-    ]
+    ],
+    "cohort": "M13"
   },
   {
     "name": "賴慎徽 Shen Hui Lai",
-    "role": "Master's Student",
-    "group": "M13",
+    "role": "Former Master's Student",
+    "group": "Alumni",
     "image": "/images/shen-hui-lai.jpg",
-    "bio": "Master's student in the Design and Manufacturing Division. His research focuses on atmospheric-pressure plasma jet-assisted enhancement of thermal resistance in PMMA microfluidic bonding, with skills in plasma systems, mechanical design, and FDM/SLA 3D printing.",
+    "bio": "Former master's student in the Design and Manufacturing Division. His research focused on atmospheric-pressure plasma jet-assisted enhancement of thermal resistance in PMMA microfluidic bonding, with skills in plasma systems, mechanical design, and FDM/SLA 3D printing.",
     "interests": [
       "Atmospheric pressure plasma jet",
       "PMMA microfluidics",
@@ -98,7 +99,8 @@
         "label": "ICSS2025",
         "url": "https://www.icss2025.com/"
       }
-    ]
+    ],
+    "cohort": "M13"
   },
   {
     "name": "陳易唯 Yi-Wei Chen",
