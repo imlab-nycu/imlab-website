@@ -415,6 +415,15 @@
     "items": [
       {
         "year": "2026",
+        "title": "オンチップソーティングを統合した微小液滴封入による単一細胞動態解析システム (Single-Cell Dynamics Analysis System Based on Microdroplet Encapsulation Integrated with On-Chip Sorting)",
+        "authors": "Rinko Kurogi, Makoto Saito, Ryo Mukohara, Nariaki Kiyama, Yoko Yamanishi, Kosuke Dodo, Takashi Kamatani, Yoshitaka Shirasaki, Chia-Hung Dylan Tsai, Satoshi Yotsumoto, Niko Kimura, Shigeo S. Sugano, and Shinya Sakuma*",
+        "venue": "The 54th Symposium on Chemistry and Micro/Nanosystems (Cheminas 54), submitted, (2026.11).",
+        "url": "",
+        "doi": "",
+        "source": "User-provided update, 2026-08-31"
+      },
+      {
+        "year": "2026",
         "title": "Improving Localization Accuracy via Visual-Tactile Fusion Using Particle Filtering",
         "authors": "Yu-Wen Luo and Chia-Hung Dylan Tsai*",
         "venue": "International Conference on Advanced Robotics and Intelligent Systems (ARIS 2026), (Tainan, Taiwan, 2026.08.24-26).",
