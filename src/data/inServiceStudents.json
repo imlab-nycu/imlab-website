@@ -24,6 +24,19 @@
         {
           "name": "林家揚 Chia-Yang Lin",
           "cohort": "M13"
+        },
+        {
+          "name": "謝文健",
+          "cohort": "M08",
+          "proposalTitle": "精密微動拉伸機開發與黏彈性特性量測應用",
+          "proposalTitleEn": "Development of Precision Micro-Tensile Testing Machine and Its Application in Viscoelastic Property Measurement",
+          "note": "Completed departure procedures on September 2, 2026.",
+          "keywords": [
+            "Precision micro-tensile testing",
+            "Viscoelasticity",
+            "Mechanical characterization",
+            "Instrument development"
+          ]
         }
       ]
     },
@@ -31,18 +44,6 @@
       "status": "Proposal passed",
       "label": "Proposal defense completed",
       "students": [
-        {
-          "name": "謝文健",
-          "cohort": "M08",
-          "proposalTitle": "精密微動拉伸機開發與黏彈性特性量測應用",
-          "proposalTitleEn": "Development of Precision Micro-Tensile Testing Machine and Its Application in Viscoelastic Property Measurement",
-          "keywords": [
-            "Precision micro-tensile testing",
-            "Viscoelasticity",
-            "Mechanical characterization",
-            "Instrument development"
-          ]
-        },
         {
           "name": "傅廷明",
           "cohort": "M09",

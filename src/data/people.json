@@ -144,10 +144,10 @@
   },
   {
     "name": "羅宇妏 Yu-Wen Luo",
-    "role": "Master's Student",
-    "group": "M13",
+    "role": "Former Master's Student",
+    "group": "Alumni",
     "image": "",
-    "bio": "Master's student at IMLAB working on visual-tactile fusion for robotic localization, including particle-filtering methods for improving localization accuracy.",
+    "bio": "Former master's student at IMLAB working on visual-tactile fusion for robotic localization, including particle-filtering methods for improving localization accuracy. She completed departure procedures on September 2, 2026.",
     "interests": [
       "Robot localization",
       "Visual-tactile fusion",
@@ -159,7 +159,9 @@
         "label": "ARIS2026",
         "url": "https://aris2026.ncku.edu.tw/"
       }
-    ]
+    ],
+    "cohort": "M13",
+    "thesis": "Adaptive Weighting and Particle Filtering for Improved Robotic Tactile-Visual Localization under Occlusion"
   },
   {
     "name": "李冠霆 Kuan-Ting Lee",
@@ -435,12 +437,14 @@
     "role": "Former Working-Student Master's Student",
     "group": "Alumni",
     "image": "",
-    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. Company/title listed in the 2022 archive: 政美應用股份有限公司機構工程師.",
+    "bio": "Former student in the Engineering Master's Program for Working Students, Precision and Automation Division. He completed departure procedures on September 2, 2026. Company/title listed in the 2022 archive: 政美應用股份有限公司機構工程師.",
     "interests": [
       "專班精密與自動化組",
       "政美應用股份有限公司機構工程師"
     ],
-    "links": []
+    "links": [],
+    "cohort": "M08",
+    "thesis": "精密微動拉伸機開發與黏彈性特性量測應用"
   },
   {
     "name": "林品賢",
