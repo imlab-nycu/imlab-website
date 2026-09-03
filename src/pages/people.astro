@@ -169,6 +169,9 @@ const alumniGroups = Object.entries(
                   ) : (
                     <p>{person.bio}</p>
                   )}
+                  {person.departureDate && (
+                    <p><span>Departure completed</span>{person.departureDate}</p>
+                  )}
                   {person.links.length > 0 && (
                     <div class="alumni-links">
                       {person.links.map((link) => (
