@@ -61,6 +61,9 @@
   - Added an APCOT 2026 news item and presentation photo for Yi-Lun Lan's oral paper presentation.
   - Added optional thumbnail rendering for news items.
   - Published the People name/photo and APCOT 2026 news update to GitHub Pages and verified the live People page, homepage, and news image.
+  - Removed the public APCOT 2026 Abstract Browser page after the conference ended.
+  - Removed the APCOT browser link from Yi-Lun Lan's profile and cleared the APCOT browser URLs from two conference publication records.
+  - Published the removal to the root GitHub Pages repository and verified `https://imlab-nycu.github.io/apcot2026/abstracts/` returns 404.
   - Registered GoatCounter analytics site `imlab-nycu` with `yoshi.imlab@gmail.com`.
   - Added GoatCounter analytics configuration to `src/data/site.json` and the shared tracking script to `src/layouts/BaseLayout.astro`.
   - Published the GoatCounter analytics update to GitHub Pages and verified the live homepage and People page include the tracking script.
@@ -78,11 +81,12 @@
   - Set Astro to `base: '/'` and `build.assets: 'assets'` so root GitHub Pages serves generated CSS without relying on `_astro`.
 - Current version or deployment state:
   - Repository branch: `main`
-  - Latest website source/content commit pushed to `main`: `c69ece1` (`Use Pages-safe asset directory`).
-  - Latest root-site deployment commit pushed to `imlab-nycu.github.io` `main`: `a827d84` (`Use Pages-safe asset directory`).
+  - Latest website source/content commit pushed to `main`: `8b8523c` (`Remove public APCOT 2026 abstract browser`).
+  - Latest root-site deployment commit pushed to `imlab-nycu.github.io` `main`: `5b48c91` (`Remove public APCOT 2026 abstract browser`).
   - Latest old project-site redirect commit pushed to `imlab-website` `gh-pages`: `273e6d0` (`Redirect project site to root URL`).
   - Public People page: `https://imlab-nycu.github.io/people/`
   - Public homepage/news page: `https://imlab-nycu.github.io/`
+  - Removed APCOT browser URL: `https://imlab-nycu.github.io/apcot2026/abstracts/` returns 404 as of 2026-09-08.
   - GoatCounter dashboard: `https://imlab-nycu.goatcounter.com/`
   - `visibility_audit_2026-06-13.md` is untracked and needs a keep/remove decision.
 
@@ -155,3 +159,4 @@
   - 陳易唯: Gmail message id `19ec9ba4f98a85dc`
   - 朱婕寧: Gmail message id `19ecabef8684b358`
 - Before ending a website work session, update this file and `CHANGELOG.md`; add future tasks to `TODO.md`.
+- APCOT public browser removal verification on 2026-09-08: `npm run build` passed with 5 pages built; `dist/` and the live People/Publications pages contain no `apcot2026/abstracts` or `APCOT 2026 Abstract Browser` references; live `https://imlab-nycu.github.io/apcot2026/abstracts/` returned HTTP 404.

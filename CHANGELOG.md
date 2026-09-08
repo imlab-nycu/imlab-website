@@ -1,3 +1,22 @@
+## 2026-09-08
+
+### Changed
+
+- Removed the public APCOT 2026 Abstract Browser from the generated site.
+- Removed the APCOT browser link from Yi-Lun Lan's People profile.
+- Cleared APCOT browser URLs from two APCOT-related conference publication records while preserving the publication records.
+
+### Fixed
+
+- Verified `src/data/people.json` and `src/data/publications.json` with `jq`.
+- Verified `npm run build` passes with 5 static pages.
+- Published the update to `main` and deployed the root GitHub Pages site.
+- Verified `https://imlab-nycu.github.io/apcot2026/abstracts/` returns 404 and live People/Publications pages no longer contain APCOT browser links.
+
+### Removed
+
+- Public website page `public/apcot2026/abstracts/index.html`.
+
 ## 2026-06-27
 
 ### Changed
